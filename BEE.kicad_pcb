@@ -36,8 +36,9 @@
   (setup
     (last_trace_width 0.3048)
     (user_trace_width 0.1524)
+    (user_trace_width 0.2032)
     (user_trace_width 0.3048)
-    (user_trace_width 0.4572)
+    (user_trace_width 0.4064)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -487,8 +488,8 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x28_P2.54mm_Vertical (layer F.Cu) (tedit 5D965D1B) (tstamp 5D96270B)
-    (at 171 91 270)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x28_P2.54mm_Vertical (layer F.Cu) (tedit 5D965D1B) (tstamp 5DA2C767)
+    (at 171 92.27 270)
     (descr "Through hole straight pin header, 1x28, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x28 2.54mm single row")
     (path /5DE7842C)
@@ -580,7 +581,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5DB3B5DB)
-    (at 150.68 93.54 90)
+    (at 150.68 94.81 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5E2BD9BD)
@@ -711,8 +712,8 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 5D965A76) (tstamp 5DB3B7BA)
-    (at 127.82 93.54 270)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 5D965A76) (tstamp 5DA2C708)
+    (at 127.82 94.81 270)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /5E50F430)
