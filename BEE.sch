@@ -100,31 +100,31 @@ Wire Wire Line
 	2800 2150 2950 2150
 Text Label 2950 2150 0    50   ~ 0
 BCM7_CE1
-Text Label 3550 1800 0    50   ~ 0
-BCM17
-Text Label 3550 1400 0    50   ~ 0
-BCM2_SDA
 Text Label 3550 1500 0    50   ~ 0
+BCM17
+Text Label 3550 1300 0    50   ~ 0
+BCM2_SDA
+Text Label 3550 1400 0    50   ~ 0
 BCM3_SCL
 Wire Wire Line
-	5800 4300 5250 4300
+	5500 2900 4950 2900
 Text Label 850  4900 0    50   ~ 0
 BCM23_RTCK
 Wire Wire Line
-	3550 1500 4100 1500
-Wire Wire Line
-	3550 1800 4100 1800
-Wire Wire Line
 	3550 1400 4100 1400
 Wire Wire Line
-	4100 1600 3550 1600
-Text Label 3550 1600 0    50   ~ 0
+	3550 1500 4100 1500
+Wire Wire Line
+	3550 1300 4100 1300
+Wire Wire Line
+	5400 4500 4850 4500
+Text Label 4850 4500 0    50   ~ 0
 BCM14_TX
 Wire Wire Line
-	4100 1700 3550 1700
-Text Label 3550 1700 0    50   ~ 0
+	5400 4400 4850 4400
+Text Label 4850 4400 0    50   ~ 0
 BCM15_RX
-Text Label 5250 4300 0    50   ~ 0
+Text Label 4950 2900 0    50   ~ 0
 BCM18_PWM0
 Text Label 850  4800 0    50   ~ 0
 BCM25_TCK
@@ -525,17 +525,17 @@ DAC
 $Comp
 L Device:Buzzer BZ1
 U 1 1 5DACBCC1
-P 6600 4500
-F 0 "BZ1" H 6753 4529 50  0000 L CNN
-F 1 "Buzzer" H 6753 4438 50  0000 L CNN
-F 2 "BEElib:Buzzer" V 6575 4600 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" V 6575 4600 50  0001 C CNN
-F 4 "Mouser" H 950 1500 50  0001 C CNN "Distributor"
-F 5 "810-PS1720P02" H 950 1500 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D" H 950 1500 50  0001 C CNN "Distributor link"
-F 7 "TDK" H 950 1500 50  0001 C CNN "Manufacturer"
-F 8 "PS1720P02" H 950 1500 50  0001 C CNN "Manufacturer PN"
-	1    6600 4500
+P 6300 3100
+F 0 "BZ1" H 6453 3129 50  0000 L CNN
+F 1 "Buzzer" H 6453 3038 50  0000 L CNN
+F 2 "BEElib:Buzzer" V 6275 3200 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" V 6275 3200 50  0001 C CNN
+F 4 "Mouser" H 650 100 50  0001 C CNN "Distributor"
+F 5 "810-PS1720P02" H 650 100 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D" H 650 100 50  0001 C CNN "Distributor link"
+F 7 "TDK" H 650 100 50  0001 C CNN "Manufacturer"
+F 8 "PS1720P02" H 650 100 50  0001 C CNN "Manufacturer PN"
+	1    6300 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -667,53 +667,53 @@ Wire Notes Line
 Wire Notes Line
 	10600 2900 7350 2900
 Wire Wire Line
-	4150 2200 3600 2200
-Text Label 3600 2200 0    50   ~ 0
+	4100 1800 3550 1800
+Text Label 3550 1800 0    50   ~ 0
 BCM0
 Wire Wire Line
-	4150 2400 3600 2400
-Text Label 3600 2400 0    50   ~ 0
+	4100 2000 3550 2000
+Text Label 3550 2000 0    50   ~ 0
 BCM5
 Wire Wire Line
-	4150 2500 3600 2500
-Text Label 3600 2500 0    50   ~ 0
+	4100 2100 3550 2100
+Text Label 3550 2100 0    50   ~ 0
 BCM6
 Wire Wire Line
-	5800 4500 5250 4500
-Text Label 5250 4500 0    50   ~ 0
+	5500 3100 4950 3100
+Text Label 4950 3100 0    50   ~ 0
 BCM13_PWM1
-Text Label 3600 2600 0    50   ~ 0
+Text Label 3550 2300 0    50   ~ 0
 BCM19
 Wire Wire Line
-	4150 2900 3600 2900
-Text Label 3600 2900 0    50   ~ 0
+	4100 2500 3550 2500
+Text Label 3550 2500 0    50   ~ 0
 BCM26
-Text Label 3600 2300 0    50   ~ 0
+Text Label 3550 1900 0    50   ~ 0
 BCM1
-Text Label 5250 4400 0    50   ~ 0
+Text Label 4950 3000 0    50   ~ 0
 BCM12_PWM0
 Wire Wire Line
-	4150 2700 3600 2700
-Text Label 3600 2700 0    50   ~ 0
+	4100 2200 3550 2200
+Text Label 3550 2200 0    50   ~ 0
 BCM16
-Text Label 3600 2800 0    50   ~ 0
+Text Label 3550 2400 0    50   ~ 0
 BCM20
-Text Label 3600 3000 0    50   ~ 0
+Text Label 3550 2600 0    50   ~ 0
 BCM21
 Wire Wire Line
-	3600 2300 4150 2300
+	3550 1900 4100 1900
 Wire Wire Line
-	5250 4400 5800 4400
+	4950 3000 5500 3000
 Wire Wire Line
-	3600 2600 4150 2600
+	3550 2300 4100 2300
 Wire Wire Line
-	3600 2800 4150 2800
+	3550 2400 4100 2400
 Wire Wire Line
-	3600 3000 4150 3000
-Text Notes 6100 4150 0    50   ~ 0
+	3550 2600 4100 2600
+Text Notes 5800 2750 0    50   ~ 0
 Buzzer
 Wire Notes Line
-	7100 4650 7100 4050
+	6800 3250 6800 2650
 Wire Notes Line
 	4900 800  4900 2500
 Wire Notes Line
@@ -721,25 +721,14 @@ Wire Notes Line
 Wire Notes Line
 	7150 800  4900 800 
 $Comp
-L power:GND #PWR022
-U 1 1 5E2980AA
-P 4050 1300
-F 0 "#PWR022" H 4050 1050 50  0001 C CNN
-F 1 "GND" V 4050 1150 50  0000 R CNN
-F 2 "" H 4050 1300 50  0001 C CNN
-F 3 "" H 4050 1300 50  0001 C CNN
-	1    4050 1300
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR016
 U 1 1 5E2BDBDA
-P 6350 4300
-F 0 "#PWR016" H 6350 4050 50  0001 C CNN
-F 1 "GND" V 6350 4150 50  0000 R CNN
-F 2 "" H 6350 4300 50  0001 C CNN
-F 3 "" H 6350 4300 50  0001 C CNN
-	1    6350 4300
+P 6050 2900
+F 0 "#PWR016" H 6050 2650 50  0001 C CNN
+F 1 "GND" V 6050 2750 50  0000 R CNN
+F 2 "" H 6050 2900 50  0001 C CNN
+F 3 "" H 6050 2900 50  0001 C CNN
+	1    6050 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -943,74 +932,55 @@ Wire Wire Line
 	2800 1150 3000 1150
 Connection ~ 2900 950 
 $Comp
-L Connector_Generic:Conn_01x03 J7
-U 1 1 5E577BC1
-P 5850 3550
-F 0 "J7" V 5850 3750 50  0000 L CNN
-F 1 "Conn_01x03" V 6000 3400 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5850 3550 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255765.pdf" H 5850 3550 50  0001 C CNN
-F 4 "Mouser" H -750 450 50  0001 C CNN "Distributor"
-F 5 " 571-6404563 " H -750 450 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-3?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2bZeLrWq0xYY%3D" H -750 450 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP" H -750 450 50  0001 C CNN "Manufacturer"
-F 8 "640456-3" H -750 450 50  0001 C CNN "Manufacturer PN"
-	1    5850 3550
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+3.3V #PWR0101
 U 1 1 5E577CB2
-P 5950 3300
-F 0 "#PWR0101" H 5950 3150 50  0001 C CNN
-F 1 "+3.3V" H 5950 3300 50  0000 L CNN
-F 2 "" H 5950 3300 50  0001 C CNN
-F 3 "" H 5950 3300 50  0001 C CNN
-	1    5950 3300
+P 3100 3500
+F 0 "#PWR0101" H 3100 3350 50  0001 C CNN
+F 1 "+3.3V" H 3050 3650 50  0000 L CNN
+F 2 "" H 3100 3500 50  0001 C CNN
+F 3 "" H 3100 3500 50  0001 C CNN
+	1    3100 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0102
 U 1 1 5E577E21
-P 5750 3300
-F 0 "#PWR0102" H 5750 3150 50  0001 C CNN
-F 1 "+5V" H 5650 3350 50  0000 C CNN
-F 2 "" H 5750 3300 50  0001 C CNN
-F 3 "" H 5750 3300 50  0001 C CNN
-	1    5750 3300
+P 2900 3500
+F 0 "#PWR0102" H 2900 3350 50  0001 C CNN
+F 1 "+5V" H 2900 3650 50  0000 C CNN
+F 2 "" H 2900 3500 50  0001 C CNN
+F 3 "" H 2900 3500 50  0001 C CNN
+	1    2900 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VDD #PWR0103
 U 1 1 5E577ECF
-P 5850 3150
-F 0 "#PWR0103" H 5850 3000 50  0001 C CNN
-F 1 "VDD" V 5867 3278 50  0000 L CNN
-F 2 "" H 5850 3150 50  0001 C CNN
-F 3 "" H 5850 3150 50  0001 C CNN
-	1    5850 3150
+P 3000 3200
+F 0 "#PWR0103" H 3000 3050 50  0001 C CNN
+F 1 "VDD" V 3017 3328 50  0000 L CNN
+F 2 "" H 3000 3200 50  0001 C CNN
+F 3 "" H 3000 3200 50  0001 C CNN
+	1    3000 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 3100 5850 3150
+	3000 3150 3000 3200
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5E5ADC31
-P 5850 3100
-F 0 "#FLG0101" H 5850 3175 50  0001 C CNN
-F 1 "PWR_FLAG" H 6100 3150 50  0000 C CNN
-F 2 "" H 5850 3100 50  0001 C CNN
-F 3 "~" H 5850 3100 50  0001 C CNN
-	1    5850 3100
+P 3000 3150
+F 0 "#FLG0101" H 3000 3225 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 3200 50  0000 C CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "~" H 3000 3150 50  0001 C CNN
+	1    3000 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5750 3300 5750 3350
+	2900 3500 2900 3550
 Wire Wire Line
-	5950 3300 5950 3350
-Connection ~ 5850 3150
-Wire Wire Line
-	5850 3150 5850 3350
+	3100 3500 3100 3550
 $Comp
 L power:VDD #PWR0104
 U 1 1 5E5E380F
@@ -1392,27 +1362,25 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x09 J15
 U 1 1 5DD928D6
-P 4350 2600
-F 0 "J15" H 4430 2642 50  0000 L CNN
-F 1 "Conn_01x09" H 4430 2551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4350 2600 50  0001 C CNN
-F 3 "~" H 4350 2600 50  0001 C CNN
-F 4 "Mouser" H -50 -1300 50  0001 C CNN "Distributor"
-F 5 " 538-22-28-4091 " H -50 -1300 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4091?qs=sGAEpiMZZMs%252BGHln7q6pmxD%2F5kNJnZVet0ZH%252BEO7yVU%3D" H -50 -1300 50  0001 C CNN "Distributor link"
-F 7 "Molex" H -50 -1300 50  0001 C CNN "Manufacturer"
-F 8 "22-28-4091" H -50 -1300 50  0001 C CNN "Manufacturer PN"
-	1    4350 2600
+P 4300 2200
+F 0 "J15" H 4300 2750 50  0000 L CNN
+F 1 "Conn_01x09" H 4150 1700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4300 2200 50  0001 C CNN
+F 3 "~" H 4300 2200 50  0001 C CNN
+F 4 "Mouser" H -100 -1700 50  0001 C CNN "Distributor"
+F 5 " 538-22-28-4091 " H -100 -1700 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4091?qs=sGAEpiMZZMs%252BGHln7q6pmxD%2F5kNJnZVet0ZH%252BEO7yVU%3D" H -100 -1700 50  0001 C CNN "Distributor link"
+F 7 "Molex" H -100 -1700 50  0001 C CNN "Manufacturer"
+F 8 "22-28-4091" H -100 -1700 50  0001 C CNN "Manufacturer PN"
+	1    4300 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 1300 4100 1300
 $Comp
 L power:+5V #PWR021
 U 1 1 5DDBF540
 P 3950 1200
 F 0 "#PWR021" H 3950 1050 50  0001 C CNN
-F 1 "+5V" H 3900 1350 50  0000 C CNN
+F 1 "+5V" V 3950 1400 50  0000 C CNN
 F 2 "" H 3950 1200 50  0001 C CNN
 F 3 "" H 3950 1200 50  0001 C CNN
 	1    3950 1200
@@ -1423,7 +1391,7 @@ L power:+3.3V #PWR018
 U 1 1 5DDBF5F5
 P 3950 1100
 F 0 "#PWR018" H 3950 950 50  0001 C CNN
-F 1 "+3.3V" H 3900 1250 50  0000 L CNN
+F 1 "+3.3V" V 3950 1250 50  0000 L CNN
 F 2 "" H 3950 1100 50  0001 C CNN
 F 3 "" H 3950 1100 50  0001 C CNN
 	1    3950 1100
@@ -1452,35 +1420,35 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5DE70416
-P 6000 4400
-F 0 "J3" H 6050 4600 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 5950 4200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6000 4400 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 6000 4400 50  0001 C CNN
-F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 "649-68602-406HLF " H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68602-406HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6Whc8wbDWWS8%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "68602-406HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
-	1    6000 4400
+P 5700 3000
+F 0 "J3" H 5750 3200 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5650 2800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5700 3000 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 5700 3000 50  0001 C CNN
+F 4 "Mouser" H -300 -1400 50  0001 C CNN "Distributor"
+F 5 "649-68602-406HLF " H -300 -1400 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68602-406HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6Whc8wbDWWS8%3D" H -300 -1400 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H -300 -1400 50  0001 C CNN "Manufacturer"
+F 8 "68602-406HLF" H -300 -1400 50  0001 C CNN "Manufacturer PN"
+	1    5700 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 4400 6500 4400
+	6000 3000 6200 3000
 Wire Wire Line
-	6300 4500 6400 4500
+	6000 3100 6100 3100
 Wire Wire Line
-	6400 4500 6400 4600
+	6100 3100 6100 3200
 Wire Wire Line
-	6400 4600 6500 4600
+	6100 3200 6200 3200
 Wire Wire Line
-	6350 4300 6300 4300
+	6050 2900 6000 2900
 Wire Notes Line
-	5200 4650 7100 4650
+	4900 3250 6800 3250
 Wire Notes Line
-	5200 4050 7100 4050
+	4900 2650 6800 2650
 Wire Notes Line
-	5200 4050 5200 4650
+	4900 2650 4900 3250
 Wire Notes Line
 	4900 2500 7150 2500
 $Comp
@@ -1597,22 +1565,6 @@ Connection ~ 1350 4400
 NoConn ~ 1400 5300
 NoConn ~ 1400 5200
 NoConn ~ 1400 5100
-$Comp
-L Connector_Generic:Conn_01x08 J6
-U 1 1 5E053B7D
-P 4300 1400
-F 0 "J6" H 4300 1800 50  0000 L CNN
-F 1 "Conn_01x08" V 4400 1000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4300 1400 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255683.pdf" H 4300 1400 50  0001 C CNN
-F 4 "Mouser" H -5300 -250 50  0001 C CNN "Distributor"
-F 5 " 571-6404568 " H -5300 -250 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-8?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2hZ2%2Fj1lzTCc%3D" H -5300 -250 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H -5300 -250 50  0001 C CNN "Manufacturer"
-F 8 "640456-8" H -5300 -250 50  0001 C CNN "Manufacturer PN"
-	1    4300 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 5000 850  5000
 Wire Wire Line
@@ -1637,4 +1589,138 @@ Wire Notes Line
 	4150 3950 700  3950
 Wire Notes Line
 	700  3950 700  5650
+Text Notes 5800 4500 0    50   ~ 0
+For FTDI cables (crossed):\n1 - Black -> gnd\n2 - Brown -> CTS\n3 - Red -> Vcc\n4 - Orange -> TX\n5 - Yellow -> RX\n6 - Green -> RTS
+$Comp
+L Connector_Generic:Conn_01x06 J13
+U 1 1 5D9CD8D7
+P 5600 4300
+F 0 "J13" H 5650 4600 50  0000 R CNN
+F 1 "Conn_01x06" H 5800 3900 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5600 4300 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf" H 5600 4300 50  0001 C CNN
+F 4 "Mouser" H 250 3400 50  0001 C CNN "Distributor"
+F 5 " 538-22-28-4060 " H 250 3400 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D" H 250 3400 50  0001 C CNN "Distributor link"
+F 7 "Molex" H 250 3400 50  0001 C CNN "Manufacturer"
+F 8 "22-28-4060" H 250 3400 50  0001 C CNN "Manufacturer PN"
+	1    5600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5DA0B7FD
+P 5250 4100
+F 0 "#PWR0108" H 5250 3850 50  0001 C CNN
+F 1 "GND" V 5250 3950 50  0000 R CNN
+F 2 "" H 5250 4100 50  0001 C CNN
+F 3 "" H 5250 4100 50  0001 C CNN
+	1    5250 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4100 5400 4100
+NoConn ~ 5400 4200
+NoConn ~ 5400 4600
+NoConn ~ 5400 4300
+Wire Notes Line
+	4750 3900 4750 4750
+Wire Notes Line
+	4750 4750 6850 4750
+Wire Notes Line
+	6850 4750 6850 3900
+Wire Notes Line
+	6850 3900 4750 3900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DACDC65
+P 850 6050
+F 0 "H1" H 950 6050 50  0000 L CNN
+F 1 "MountingHole" H 650 5950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 850 6050 50  0001 C CNN
+F 3 "~" H 850 6050 50  0001 C CNN
+	1    850  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DACDD9A
+P 850 6300
+F 0 "H2" H 950 6300 50  0000 L CNN
+F 1 "MountingHole" H 650 6200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 850 6300 50  0001 C CNN
+F 3 "~" H 850 6300 50  0001 C CNN
+	1    850  6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DACDDF8
+P 1350 6300
+F 0 "H4" H 1450 6300 50  0000 L CNN
+F 1 "MountingHole" H 1200 6200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1350 6300 50  0001 C CNN
+F 3 "~" H 1350 6300 50  0001 C CNN
+	1    1350 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DACDE80
+P 1350 6050
+F 0 "H3" H 1450 6050 50  0000 L CNN
+F 1 "MountingHole" H 1150 5950 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1350 6050 50  0001 C CNN
+F 3 "~" H 1350 6050 50  0001 C CNN
+	1    1350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5DB01257
+P 4300 1300
+F 0 "J7" H 4380 1342 50  0000 L CNN
+F 1 "Conn_01x05" H 4380 1251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4300 1300 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255667.pdf" H 4300 1300 50  0001 C CNN
+F 4 "Moser" H 0   0   50  0001 C CNN "Distributor"
+F 5 "571-6404565 " H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-5?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2GvJwv4oqRbM%3D" H 0   0   50  0001 C CNN "Distributor link"
+F 7 "TE Connectivity / AMP" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "640456-5" H 0   0   50  0001 C CNN "Manufacturer PN"
+	1    4300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5DB32F72
+P 3000 3750
+F 0 "J6" V 2873 3930 50  0000 L CNN
+F 1 "Conn_01x04" V 2964 3930 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3000 3750 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255682.pdf" H 3000 3750 50  0001 C CNN
+F 4 "Moser" H 0   0   50  0001 C CNN "Distributor"
+F 5 "571-6404564 " H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-4?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2JeT3h411LaE%3D" H 0   0   50  0001 C CNN "Distributor link"
+F 7 "TE Connectivity / AMP" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "640456-4" H 0   0   50  0001 C CNN "Manufacturer PN"
+	1    3000 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 5DB334E2
+P 2800 3300
+F 0 "#PWR022" H 2800 3050 50  0001 C CNN
+F 1 "GND" V 2750 3350 50  0000 C CNN
+F 2 "" H 2800 3300 50  0001 C CNN
+F 3 "" H 2800 3300 50  0001 C CNN
+	1    2800 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2800 3300 2800 3550
+Connection ~ 3000 3200
+Wire Wire Line
+	3000 3200 3000 3550
 $EndSCHEMATC
