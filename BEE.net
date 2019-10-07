@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/christian/KiCad/BEE/BEE.sch)
-    (date "Sun 06 Oct 2019 10:27:52 PM CEST")
+    (date "Mon 07 Oct 2019 12:40:31 AM CEST")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -264,7 +264,7 @@
       (tstamp 5DA49FF9))
     (comp (ref J9)
       (value Conn_01x02)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf)
       (fields
         (field (name Distributor) Mouser)
@@ -316,7 +316,7 @@
       (tstamp 5D974BE9))
     (comp (ref J11)
       (value Conn_01x02)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf)
       (fields
         (field (name Distributor) Mouser)
@@ -329,7 +329,7 @@
       (tstamp 5D9D371E))
     (comp (ref J10)
       (value Conn_01x02)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf)
       (fields
         (field (name Distributor) Mouser)
@@ -342,7 +342,7 @@
       (tstamp 5D9DC83F))
     (comp (ref J12)
       (value Conn_01x02)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical)
       (datasheet https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf)
       (fields
         (field (name Distributor) Mouser)

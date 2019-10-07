@@ -1104,7 +1104,7 @@ U 1 1 5E64D63E
 P 7450 4750
 F 0 "J9" H 7450 4550 50  0000 C CNN
 F 1 "Conn_01x02" H 7400 4950 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7450 4750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7450 4750 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 7450 4750 50  0001 C CNN
 F 4 "Mouser" H -100 850 50  0001 C CNN "Distributor"
 F 5 "571-6404562" H -100 850 50  0001 C CNN "Distributor PN"
@@ -1200,7 +1200,7 @@ U 1 1 5D9D371E
 P 10050 1550
 F 0 "J11" V 10050 1700 50  0000 C CNN
 F 1 "Conn_01x02" V 10150 1550 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10050 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 1550 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 10050 1550 50  0001 C CNN
 F 4 "Mouser" H 2500 -2350 50  0001 C CNN "Distributor"
 F 5 "571-6404562" H 2500 -2350 50  0001 C CNN "Distributor PN"
@@ -1216,7 +1216,7 @@ U 1 1 5D9DC83F
 P 9600 4350
 F 0 "J10" H 9600 4450 50  0000 C CNN
 F 1 "Conn_01x02" V 9700 4350 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9600 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 4350 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 9600 4350 50  0001 C CNN
 F 4 "Mouser" H 2050 450 50  0001 C CNN "Distributor"
 F 5 "571-6404562" H 2050 450 50  0001 C CNN "Distributor PN"
@@ -1232,7 +1232,7 @@ U 1 1 5D9DC9AE
 P 10050 4650
 F 0 "J12" H 10050 4750 50  0000 C CNN
 F 1 "Conn_01x02" V 10150 4650 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10050 4650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 4650 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 10050 4650 50  0001 C CNN
 F 4 "Mouser" H 2500 750 50  0001 C CNN "Distributor"
 F 5 "571-6404562" H 2500 750 50  0001 C CNN "Distributor PN"
