@@ -41,6 +41,20 @@ X P9 9 -200 550 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# Fiducial
+#
+DEF Fiducial FID 0 40 Y Y 1 F N
+F0 "FID" 0 -150 50 H V C CNN
+F1 "Fiducial" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 f
+P 2 0 1 0 -100 0 100 0 N
+P 2 0 1 0 0 100 0 -100 N
+ENDDRAW
+ENDDEF
+#
 # RPI1_header
 #
 DEF RPI1_header J 0 40 Y Y 1 F N

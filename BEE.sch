@@ -1750,4 +1750,59 @@ Wire Notes Line
 	6700 4800 6700 3950
 Wire Notes Line
 	6700 3950 4400 3950
+$Comp
+L BEE:Fiducial FID1
+U 1 1 5E028B4F
+P 2050 5950
+F 0 "FID1" H 2178 5996 50  0000 L CNN
+F 1 "Fiducial" H 2178 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 2050 5950 50  0001 C CNN
+F 3 "" H 2050 5950 50  0001 C CNN
+	1    2050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BEE:Fiducial FID2
+U 1 1 5E028C55
+P 2050 6250
+F 0 "FID2" H 2178 6296 50  0000 L CNN
+F 1 "Fiducial" H 2178 6205 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 2050 6250 50  0001 C CNN
+F 3 "" H 2050 6250 50  0001 C CNN
+	1    2050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BEE:Fiducial FID3
+U 1 1 5E028CC1
+P 2700 5950
+F 0 "FID3" H 2828 5996 50  0000 L CNN
+F 1 "Fiducial" H 2828 5905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 2700 5950 50  0001 C CNN
+F 3 "" H 2700 5950 50  0001 C CNN
+	1    2700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5E029178
+P 850 6650
+F 0 "LOGO1" H 700 6400 50  0000 L CNN
+F 1 "Logo_Open_Hardware_Small" H 850 6425 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 850 6650 50  0001 C CNN
+F 3 "~" H 850 6650 50  0001 C CNN
+	1    850  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO2
+U 1 1 5E0293AA
+P 1350 6650
+F 0 "LOGO2" H 1350 6400 50  0000 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1350 6425 50  0001 C CNN
+F 2 "BEElib:bee_logo" H 1350 6650 50  0001 C CNN
+F 3 "~" H 1350 6650 50  0001 C CNN
+	1    1350 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
