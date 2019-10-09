@@ -39,7 +39,7 @@ BCM4_TDI
 Wire Wire Line
 	1500 1450 1000 1450
 Text Label 1000 1450 0    50   ~ 0
-BCM17_RTS1
+BCM17_RTS
 Wire Wire Line
 	1000 1550 1500 1550
 Text Label 1000 1550 0    50   ~ 0
@@ -100,29 +100,23 @@ Wire Wire Line
 	2800 2150 2950 2150
 Text Label 2950 2150 0    50   ~ 0
 BCM7_CE1
-Text Label 2300 6100 2    50   ~ 0
-BCM17_RTS1
-Text Label 3700 1900 0    50   ~ 0
-BCM2_SDA
+Text Label 4450 4250 0    50   ~ 0
+BCM17_RTS
 Text Label 3700 2000 0    50   ~ 0
+BCM2_SDA
+Text Label 3700 1900 0    50   ~ 0
 BCM3_SCL
 Wire Wire Line
 	5500 2900 4950 2900
 Text Label 850  4900 0    50   ~ 0
 BCM23_RTCK
 Wire Wire Line
-	3700 2000 4250 2000
-Wire Wire Line
-	2300 6100 1800 6100
-Wire Wire Line
 	3700 1900 4250 1900
 Wire Wire Line
-	1600 6350 1200 6350
-Text Label 1200 6350 0    50   ~ 0
+	3700 2000 4250 2000
+Text Label 4450 4550 0    50   ~ 0
 BCM14_TX
-Wire Wire Line
-	2100 6450 2550 6450
-Text Label 2550 6450 2    50   ~ 0
+Text Label 4450 4450 0    50   ~ 0
 BCM15_RX
 Text Label 4950 2900 0    50   ~ 0
 BCM18_PWM0
@@ -573,7 +567,7 @@ BCM12_PWM0
 Wire Wire Line
 	2800 2650 2950 2650
 Text Label 2950 2650 0    50   ~ 0
-BCM16_CTS1
+BCM16_CTS
 Wire Wire Line
 	2800 2750 2950 2750
 Text Label 2950 2750 0    50   ~ 0
@@ -685,9 +679,9 @@ BCM13_PWM1
 Text Label 3700 1350 0    50   ~ 0
 BCM19
 Wire Wire Line
-	1300 6000 800  6000
-Text Label 800  6000 0    50   ~ 0
-BCM16_CTS1
+	4950 4650 4450 4650
+Text Label 4450 4650 0    50   ~ 0
+BCM16_CTS
 Text Label 3700 1050 0    50   ~ 0
 BCM1
 Text Label 4950 3000 0    50   ~ 0
@@ -1573,82 +1567,80 @@ Wire Notes Line
 	4150 3950 700  3950
 Wire Notes Line
 	700  3950 700  5650
-Text Notes 3050 6450 0    50   ~ 0
-UART.  For FTDI cables:\n1 - Black -> gnd\n2 - Brown -> CTS\n3 - Red -> Vcc\n4 - Orange -> TX\n5 - Yellow -> RX\n6 - Green -> RTS
+Text Notes 5600 4750 0    50   ~ 0
+UART.  TDI cables:\n1 - Black -> gnd\n2 - Brown -> CTS\n3 - Red -> Vcc\n4 - Orange -> TX\n5 - Yellow -> RX\n6 - Green -> RTS\n\nWe connect them crossed
 $Comp
 L Connector_Generic:Conn_01x06 J13
 U 1 1 5D9CD8D7
-P 2850 6250
-F 0 "J13" H 2900 6550 50  0000 R CNN
-F 1 "Conn_01x06" H 3050 5850 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2850 6250 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf" H 2850 6250 50  0001 C CNN
-F 4 "Mouser" H -2500 5350 50  0001 C CNN "Distributor"
-F 5 " 538-22-28-4060 " H -2500 5350 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D" H -2500 5350 50  0001 C CNN "Distributor link"
-F 7 "Molex" H -2500 5350 50  0001 C CNN "Manufacturer"
-F 8 "22-28-4060" H -2500 5350 50  0001 C CNN "Manufacturer PN"
-	1    2850 6250
+P 5150 4350
+F 0 "J13" H 5200 4650 50  0000 R CNN
+F 1 "Conn_01x06" H 5350 3950 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5150 4350 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf" H 5150 4350 50  0001 C CNN
+F 4 "Mouser" H -200 3450 50  0001 C CNN "Distributor"
+F 5 " 538-22-28-4060 " H -200 3450 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D" H -200 3450 50  0001 C CNN "Distributor link"
+F 7 "Molex" H -200 3450 50  0001 C CNN "Manufacturer"
+F 8 "22-28-4060" H -200 3450 50  0001 C CNN "Manufacturer PN"
+	1    5150 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5DA0B7FD
-P 2600 6050
-F 0 "#PWR0108" H 2600 5800 50  0001 C CNN
-F 1 "GND" V 2500 6050 50  0000 R CNN
-F 2 "" H 2600 6050 50  0001 C CNN
-F 3 "" H 2600 6050 50  0001 C CNN
-	1    2600 6050
+P 4900 4150
+F 0 "#PWR0108" H 4900 3900 50  0001 C CNN
+F 1 "GND" V 4800 4150 50  0000 R CNN
+F 2 "" H 4900 4150 50  0001 C CNN
+F 3 "" H 4900 4150 50  0001 C CNN
+	1    4900 4150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2600 6050 2650 6050
-NoConn ~ 2650 6250
-Wire Notes Line
-	4100 6700 4100 5850
+	4900 4150 4950 4150
+NoConn ~ 4950 4350
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DACDC65
-P 900 7150
-F 0 "H1" H 1000 7150 50  0000 L CNN
-F 1 "MountingHole" H 700 7050 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 900 7150 50  0001 C CNN
-F 3 "~" H 900 7150 50  0001 C CNN
-	1    900  7150
+P 850 5950
+F 0 "H1" H 950 5950 50  0000 L CNN
+F 1 "MountingHole" H 650 5850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 850 5950 50  0001 C CNN
+F 3 "~" H 850 5950 50  0001 C CNN
+	1    850  5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DACDD9A
-P 900 7400
-F 0 "H2" H 1000 7400 50  0000 L CNN
-F 1 "MountingHole" H 700 7300 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 900 7400 50  0001 C CNN
-F 3 "~" H 900 7400 50  0001 C CNN
-	1    900  7400
+P 850 6200
+F 0 "H2" H 950 6200 50  0000 L CNN
+F 1 "MountingHole" H 650 6100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 850 6200 50  0001 C CNN
+F 3 "~" H 850 6200 50  0001 C CNN
+	1    850  6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DACDDF8
-P 1400 7400
-F 0 "H4" H 1500 7400 50  0000 L CNN
-F 1 "MountingHole" H 1250 7300 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 1400 7400 50  0001 C CNN
-F 3 "~" H 1400 7400 50  0001 C CNN
-	1    1400 7400
+P 1350 6200
+F 0 "H4" H 1450 6200 50  0000 L CNN
+F 1 "MountingHole" H 1200 6100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1350 6200 50  0001 C CNN
+F 3 "~" H 1350 6200 50  0001 C CNN
+	1    1350 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5DACDE80
-P 1400 7150
-F 0 "H3" H 1500 7150 50  0000 L CNN
-F 1 "MountingHole" H 1200 7050 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 1400 7150 50  0001 C CNN
-F 3 "~" H 1400 7150 50  0001 C CNN
-	1    1400 7150
+P 1350 5950
+F 0 "H3" H 1450 5950 50  0000 L CNN
+F 1 "MountingHole" H 1150 5850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 1350 5950 50  0001 C CNN
+F 3 "~" H 1350 5950 50  0001 C CNN
+	1    1350 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1729,68 +1721,6 @@ $EndComp
 Wire Wire Line
 	4100 2100 4250 2100
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J7
-U 1 1 5DCD26D5
-P 1800 6350
-F 0 "J7" H 1850 6450 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1850 6150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 1800 6350 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 1800 6350 50  0001 C CNN
-F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 "649-67997-404HLF " H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-404HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6x1G9%252BQjC1vk%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "67997-404HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
-	1    1800 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 6350 2650 6350
-Wire Wire Line
-	1600 6450 1600 6550
-Wire Wire Line
-	1600 6550 2600 6550
-Wire Wire Line
-	2600 6550 2600 6450
-Wire Wire Line
-	2600 6450 2650 6450
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 5DDCFADD
-P 1500 6000
-F 0 "J6" H 1550 6100 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1550 5800 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 1500 6000 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 1500 6000 50  0001 C CNN
-F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 "649-67997-404HLF " H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-404HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6x1G9%252BQjC1vk%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "67997-404HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
-	1    1500 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 6150 2400 6150
-Wire Wire Line
-	2400 6150 2400 6000
-Wire Wire Line
-	2400 6000 1800 6000
-Wire Wire Line
-	1300 6100 1050 6100
-Wire Wire Line
-	1050 6100 1050 6600
-Wire Wire Line
-	1050 6600 2650 6600
-Wire Wire Line
-	2650 6600 2650 6550
-Wire Notes Line
-	4100 6700 700  6700
-Wire Notes Line
-	700  6700 700  5850
-Wire Notes Line
-	700  5850 4100 5850
-$Comp
 L Connector_Generic:Conn_01x08 J16
 U 1 1 5DED01C3
 P 4450 1250
@@ -1806,4 +1736,18 @@ F 8 "640456-8" H -5150 -400 50  0001 C CNN "Manufacturer PN"
 	1    4450 1250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4450 4450 4950 4450
+Wire Wire Line
+	4450 4550 4950 4550
+Wire Wire Line
+	4450 4250 4950 4250
+Wire Notes Line
+	4400 3950 4400 4800
+Wire Notes Line
+	4400 4800 6700 4800
+Wire Notes Line
+	6700 4800 6700 3950
+Wire Notes Line
+	6700 3950 4400 3950
 $EndSCHEMATC
