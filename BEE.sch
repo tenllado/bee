@@ -1805,4 +1805,15 @@ F 3 "~" H 1350 6650 50  0001 C CNN
 	1    1350 6650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO3
+U 1 1 5E02C6EE
+P 1900 6650
+F 0 "LOGO3" H 1900 6400 50  0000 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1900 6425 50  0001 C CNN
+F 2 "BEElib:UCMLogo_169_169" H 1900 6650 50  0001 C CNN
+F 3 "~" H 1900 6650 50  0001 C CNN
+	1    1900 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
