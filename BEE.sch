@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BEE Board"
-Date ""
+Date "2019-10-13"
 Rev "0.1"
 Comp "Universidad Complutense de Madrid"
-Comment1 ""
+Comment1 "https://github.com/tenllado/bee"
 Comment2 ""
 Comment3 ""
 Comment4 ""
