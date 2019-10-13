@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/christian/KiCad/BEE/BEE.sch)
-    (date "Wed 09 Oct 2019 05:39:26 PM CEST")
+    (date "Sun 13 Oct 2019 04:13:30 PM CEST")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -512,7 +512,7 @@
       (tstamp 5E029178))
     (comp (ref LOGO2)
       (value Logo_Open_Hardware_Small)
-      (footprint BEElib:bee_logo)
+      (footprint BEElib:bee_logo2)
       (datasheet ~)
       (libsource (lib Graphic) (part Logo_Open_Hardware_Small) (description "Open Hardware logo, small"))
       (sheetpath (names /) (tstamps /))
