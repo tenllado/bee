@@ -1388,10 +1388,10 @@ F 1 "Conn_02x05_Odd_Even" H 8900 3776 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 8850 3450 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 8850 3450 50  0001 C CNN
 F 4 "Mouser" H 0   50  50  0001 C CNN "Distributor"
-F 5 "649-67997-410HLF " H 0   50  50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-410HLF?qs=sGAEpiMZZMs%252BGHln7q6pmxAVkKtOEC39%252BPx3y%2Fg6zsA%3D" H 0   50  50  0001 C CNN "Distributor link"
+F 5 "649-67997-210HLF " H 0   50  50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-210HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6aE2JnujhSfI%3D" H 0   50  50  0001 C CNN "Distributor link"
 F 7 "Amphenol FCI" H 0   50  50  0001 C CNN "Manufacturer"
-F 8 "67997-410HLF" H 0   50  50  0001 C CNN "Manufacturer PN"
+F 8 "67997-210HLF " H 0   50  50  0001 C CNN "Manufacturer PN"
 	1    8850 3450
 	1    0    0    -1  
 $EndComp
@@ -1402,12 +1402,12 @@ P 5700 3000
 F 0 "J3" H 5750 3200 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 5650 2800 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5700 3000 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 5700 3000 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/276/0879140804_PCB_HEADERS-1091753.pdf" H 5700 3000 50  0001 C CNN
 F 4 "Mouser" H -300 -1400 50  0001 C CNN "Distributor"
-F 5 "649-68602-406HLF " H -300 -1400 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68602-406HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6Whc8wbDWWS8%3D" H -300 -1400 50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H -300 -1400 50  0001 C CNN "Manufacturer"
-F 8 "68602-406HLF" H -300 -1400 50  0001 C CNN "Manufacturer PN"
+F 5 "538-87914-0616 " H -300 -1400 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Molex/87914-0616?qs=sGAEpiMZZMs%252BGHln7q6pm8NDWwBzqQCNb%2F5NslhjlCw%3D" H -300 -1400 50  0001 C CNN "Distributor link"
+F 7 "Molex" H -300 -1400 50  0001 C CNN "Manufacturer"
+F 8 "87914-0616" H -300 -1400 50  0001 C CNN "Manufacturer PN"
 	1    5700 3000
 	1    0    0    -1  
 $EndComp
