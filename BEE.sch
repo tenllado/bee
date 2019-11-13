@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "BEE Board"
 Date "2019-10-13"
-Rev "0.1"
+Rev "0.2"
 Comp "Universidad Complutense de Madrid"
 Comment1 "https://github.com/tenllado/bee"
 Comment2 ""
@@ -21,12 +21,12 @@ P 2150 1900
 F 0 "J1" H 2600 750 50  0000 C CNN
 F 1 "RPI1_header" H 2150 3000 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 1900 2200 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 1900 2200 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_146254_J2-1238606.pdf" H 1900 2200 50  0001 C CNN
 F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 " 649-68691-440HLF " H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68691-440HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6xtO8hBiDCKI%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI " H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "68691-440HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 5 "571-7-146254-0" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/7-146254-0?qs=sGAEpiMZZMs%252BGHln7q6pm44kDepmYTI8jAW7hTb6F%2FE=" H 0   0   50  0001 C CNN "Distributor link"
+F 7 "TE Connectivity / AMP" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "7-146254-0" H 0   0   50  0001 C CNN "Manufacturer PN"
 	1    2150 1900
 	1    0    0    -1  
 $EndComp
@@ -141,10 +141,10 @@ BCM8_CE0
 Text Label 8100 3650 0    50   ~ 0
 BCM7_CE1
 $Comp
-L Device:R R1
+L Device:R R3
 U 1 1 5D9519BD
 P 5050 1700
-F 0 "R1" H 5120 1746 50  0000 L CNN
+F 0 "R3" H 5120 1746 50  0000 L CNN
 F 1 "220" H 5120 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 1700 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 5050 1700 50  0001 C CNN
@@ -173,10 +173,10 @@ F 8 "CRCW0805220RFKEAC " H 0   0   50  0001 C CNN "Manufacturer PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Device:R R1
 U 1 1 5D951A23
 P 5750 1700
-F 0 "R3" H 5820 1746 50  0000 L CNN
+F 0 "R1" H 5820 1746 50  0000 L CNN
 F 1 "220" H 5820 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5680 1700 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 5750 1700 50  0001 C CNN
@@ -189,10 +189,10 @@ F 8 "CRCW0805220RFKEAC " H 0   0   50  0001 C CNN "Manufacturer PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L Device:LED D3
 U 1 1 5D951AA7
 P 5050 2000
-F 0 "D1" V 5088 1883 50  0000 R CNN
+F 0 "D3" V 5088 1883 50  0000 R CNN
 F 1 "LED" V 4997 1883 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5050 2000 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/445/150080RS75000-368622.pdf" H 5050 2000 50  0001 C CNN
@@ -221,10 +221,10 @@ F 8 "150080RS75000" H 0   0   50  0001 C CNN "Manufacturer PN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D1
 U 1 1 5D951B3C
 P 5750 2000
-F 0 "D3" V 5788 1883 50  0000 R CNN
+F 0 "D1" V 5788 1883 50  0000 R CNN
 F 1 "LED" V 5697 1883 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 2000 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/445/150080RS75000-368622.pdf" H 5750 2000 50  0001 C CNN
@@ -396,7 +396,7 @@ Connection ~ 6250 1700
 Wire Wire Line
 	6250 1700 6250 1600
 Text Label 6050 1700 0    50   ~ 0
-SW3
+SW1
 Wire Wire Line
 	6050 1700 6250 1700
 Wire Wire Line
@@ -412,7 +412,7 @@ Connection ~ 6950 1700
 Wire Wire Line
 	6950 1700 6950 1800
 Text Label 6750 1700 0    50   ~ 0
-SW1
+SW3
 $Comp
 L Analog_ADC:MCP3008 U1
 U 1 1 5D9BE187
@@ -519,17 +519,17 @@ DAC
 $Comp
 L Device:Buzzer BZ1
 U 1 1 5DACBCC1
-P 6300 3100
-F 0 "BZ1" H 6453 3129 50  0000 L CNN
-F 1 "Buzzer" H 6453 3038 50  0000 L CNN
-F 2 "BEElib:Buzzer" V 6275 3200 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" V 6275 3200 50  0001 C CNN
-F 4 "Mouser" H 650 100 50  0001 C CNN "Distributor"
-F 5 "810-PS1720P02" H 650 100 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D" H 650 100 50  0001 C CNN "Distributor link"
-F 7 "TDK" H 650 100 50  0001 C CNN "Manufacturer"
-F 8 "PS1720P02" H 650 100 50  0001 C CNN "Manufacturer PN"
-	1    6300 3100
+P 6700 3100
+F 0 "BZ1" H 6853 3129 50  0000 L CNN
+F 1 "Buzzer" H 6853 3038 50  0000 L CNN
+F 2 "BEElib:Buzzer" V 6675 3200 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" V 6675 3200 50  0001 C CNN
+F 4 "Mouser" H 1050 100 50  0001 C CNN "Distributor"
+F 5 "810-PS1720P02" H 1050 100 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D" H 1050 100 50  0001 C CNN "Distributor link"
+F 7 "TDK" H 1050 100 50  0001 C CNN "Manufacturer"
+F 8 "PS1720P02" H 1050 100 50  0001 C CNN "Manufacturer PN"
+	1    6700 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -684,7 +684,7 @@ Text Label 4450 4650 0    50   ~ 0
 BCM16_CTS
 Text Label 3700 1050 0    50   ~ 0
 BCM1
-Text Label 4950 3000 0    50   ~ 0
+Text Label 6050 3100 0    50   ~ 0
 BCM12_PWM0
 Wire Wire Line
 	4250 1650 3700 1650
@@ -697,7 +697,7 @@ BCM21
 Wire Wire Line
 	3700 1050 4250 1050
 Wire Wire Line
-	4950 3000 5500 3000
+	4900 3000 5500 3000
 Wire Wire Line
 	3700 1350 4250 1350
 Wire Wire Line
@@ -706,8 +706,6 @@ Wire Wire Line
 	3700 1550 4250 1550
 Text Notes 5800 2750 0    50   ~ 0
 Buzzer
-Wire Notes Line
-	6800 3250 6800 2650
 Wire Notes Line
 	4900 800  4900 2500
 Wire Notes Line
@@ -1053,12 +1051,12 @@ P 9600 1650
 F 0 "J8" H 9600 2050 50  0000 L CNN
 F 1 "Conn_01x08" V 9700 1250 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9600 1650 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255683.pdf" H 9600 1650 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 9600 1650 50  0001 C CNN
 F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 " 571-6404568 " H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-8?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2hZ2%2Fj1lzTCc%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "640456-8" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 5 "649-68000-408HLF" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D" H 0   0   50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI " H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "68000-408HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
 	1    9600 1650
 	1    0    0    -1  
 $EndComp
@@ -1069,12 +1067,12 @@ P 7450 4750
 F 0 "J9" H 7450 4550 50  0000 C CNN
 F 1 "Conn_01x02" H 7400 4950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7450 4750 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 7450 4750 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 7450 4750 50  0001 C CNN
 F 4 "Mouser" H -100 850 50  0001 C CNN "Distributor"
-F 5 "571-6404562" H -100 850 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-2?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2BxUqTDN3Uy8%3D" H -100 850 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H -100 850 50  0001 C CNN "Manufacturer"
-F 8 "640456-2" H -100 850 50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-402HLF" H -100 850 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D" H -100 850 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H -100 850 50  0001 C CNN "Manufacturer"
+F 8 "68001-402HLF" H -100 850 50  0001 C CNN "Manufacturer PN"
 	1    7450 4750
 	-1   0    0    1   
 $EndComp
@@ -1165,12 +1163,12 @@ P 10050 1550
 F 0 "J11" V 10050 1700 50  0000 C CNN
 F 1 "Conn_01x02" V 10150 1550 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 1550 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 10050 1550 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 10050 1550 50  0001 C CNN
 F 4 "Mouser" H 2500 -2350 50  0001 C CNN "Distributor"
-F 5 "571-6404562" H 2500 -2350 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-2?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2BxUqTDN3Uy8%3D" H 2500 -2350 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H 2500 -2350 50  0001 C CNN "Manufacturer"
-F 8 "640456-2" H 2500 -2350 50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-402HLF" H 2500 -2350 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D" H 2500 -2350 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 2500 -2350 50  0001 C CNN "Manufacturer"
+F 8 "68001-402HLF" H 2500 -2350 50  0001 C CNN "Manufacturer PN"
 	1    10050 1550
 	0    1    1    0   
 $EndComp
@@ -1181,12 +1179,12 @@ P 9600 4350
 F 0 "J10" H 9600 4450 50  0000 C CNN
 F 1 "Conn_01x02" V 9700 4350 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 4350 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 9600 4350 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 9600 4350 50  0001 C CNN
 F 4 "Mouser" H 2050 450 50  0001 C CNN "Distributor"
-F 5 "571-6404562" H 2050 450 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-2?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2BxUqTDN3Uy8%3D" H 2050 450 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H 2050 450 50  0001 C CNN "Manufacturer"
-F 8 "640456-2" H 2050 450 50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-402HLF" H 2050 450 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D" H 2050 450 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 2050 450 50  0001 C CNN "Manufacturer"
+F 8 "68001-402HLF" H 2050 450 50  0001 C CNN "Manufacturer PN"
 	1    9600 4350
 	1    0    0    -1  
 $EndComp
@@ -1197,12 +1195,12 @@ P 10050 4650
 F 0 "J12" H 10050 4750 50  0000 C CNN
 F 1 "Conn_01x02" V 10150 4650 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10050 4650 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255681.pdf" H 10050 4650 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 10050 4650 50  0001 C CNN
 F 4 "Mouser" H 2500 750 50  0001 C CNN "Distributor"
-F 5 "571-6404562" H 2500 750 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-2?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2BxUqTDN3Uy8%3D" H 2500 750 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H 2500 750 50  0001 C CNN "Manufacturer"
-F 8 "640456-2" H 2500 750 50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-402HLF" H 2500 750 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D" H 2500 750 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 2500 750 50  0001 C CNN "Manufacturer"
+F 8 "68001-402HLF" H 2500 750 50  0001 C CNN "Manufacturer PN"
 	1    10050 4650
 	1    0    0    -1  
 $EndComp
@@ -1400,7 +1398,7 @@ L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5DE70416
 P 5700 3000
 F 0 "J3" H 5750 3200 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 5650 2800 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5700 2750 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5700 3000 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/276/0879140804_PCB_HEADERS-1091753.pdf" H 5700 3000 50  0001 C CNN
 F 4 "Mouser" H -300 -1400 50  0001 C CNN "Distributor"
@@ -1412,21 +1410,13 @@ F 8 "87914-0616" H -300 -1400 50  0001 C CNN "Manufacturer PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6000 3000 6200 3000
+	6000 3000 6600 3000
 Wire Wire Line
-	6000 3100 6100 3100
+	4900 3000 4900 3200
 Wire Wire Line
-	6100 3100 6100 3200
-Wire Wire Line
-	6100 3200 6200 3200
+	4900 3200 6600 3200
 Wire Wire Line
 	6050 2900 6000 2900
-Wire Notes Line
-	4900 3250 6800 3250
-Wire Notes Line
-	4900 2650 6800 2650
-Wire Notes Line
-	4900 2650 4900 3250
 Wire Notes Line
 	4900 2500 7150 2500
 $Comp
@@ -1458,12 +1448,12 @@ P 1600 4800
 F 0 "J5" H 1650 4200 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 1400 4100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 1600 4800 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/67996-1142923.pdf" H 1600 4800 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/77313-1266357.pdf" H 1600 4800 50  0001 C CNN
 F 4 "Mouser" H -1150 250 50  0001 C CNN "Distributor"
-F 5 " 649-68691-420HLF " H -1150 250 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68691-420HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l605lumhtJU8A%3D" H -1150 250 50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H -1150 250 50  0001 C CNN "Manufacturer"
-F 8 "68691-420HLF" H -1150 250 50  0001 C CNN "Manufacturer PN"
+F 5 "649-77313-418-20LF " H -1150 250 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-418-20LF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMHZz%252B2IRJsFA%3D" H -1150 250 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI " H -1150 250 50  0001 C CNN "Manufacturer"
+F 8 "77313-418-20LF" H -1150 250 50  0001 C CNN "Manufacturer PN"
 	1    1600 4800
 	1    0    0    -1  
 $EndComp
@@ -1666,12 +1656,12 @@ P 4450 2000
 F 0 "J17" H 4530 2042 50  0000 L CNN
 F 1 "Conn_01x03" H 4300 1800 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4450 2000 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255765.pdf" H 4450 2000 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 4450 2000 50  0001 C CNN
 F 4 "Mouser" H 0   -450 50  0001 C CNN "Distributor"
-F 5 "571-6404563" H 0   -450 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-3?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2bZeLrWq0xYY%3D" H 0   -450 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP" H 0   -450 50  0001 C CNN "Manufacturer"
-F 8 "640456-3" H 0   -450 50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-403HLF" H 0   -450 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 0   -450 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 0   -450 50  0001 C CNN "Manufacturer"
+F 8 "68001-403HLF" H 0   -450 50  0001 C CNN "Manufacturer PN"
 	1    4450 2000
 	1    0    0    -1  
 $EndComp
@@ -1682,12 +1672,12 @@ P 3850 3700
 F 0 "J15" V 3800 3900 50  0000 L CNN
 F 1 "Conn_01x03" V 3950 3500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3850 3700 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255765.pdf" H 3850 3700 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 3850 3700 50  0001 C CNN
 F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 "571-6404563" H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-3?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2bZeLrWq0xYY%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "640456-3" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-403HLF" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 0   0   50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "68001-403HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
 	1    3850 3700
 	0    1    1    0   
 $EndComp
@@ -1698,12 +1688,12 @@ P 3000 3700
 F 0 "J14" V 2950 3900 50  0000 L CNN
 F 1 "Conn_01x03" V 3100 3500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3000 3700 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255765.pdf" H 3000 3700 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 3000 3700 50  0001 C CNN
 F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
-F 5 "571-6404563" H 0   0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-3?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2bZeLrWq0xYY%3D" H 0   0   50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "640456-3" H 0   0   50  0001 C CNN "Manufacturer PN"
+F 5 "649-68001-403HLF" H 0   0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 0   0   50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "68001-403HLF" H 0   0   50  0001 C CNN "Manufacturer PN"
 	1    3000 3700
 	0    1    1    0   
 $EndComp
@@ -1727,12 +1717,12 @@ P 4450 1250
 F 0 "J16" H 4450 1650 50  0000 L CNN
 F 1 "Conn_01x08" V 4550 850 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4450 1250 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/418/NG_CD_640456_W3-1255683.pdf" H 4450 1250 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 4450 1250 50  0001 C CNN
 F 4 "Mouser" H -5150 -400 50  0001 C CNN "Distributor"
-F 5 " 571-6404568 " H -5150 -400 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/640456-8?qs=sGAEpiMZZMs%252BGHln7q6pm5E1Eb6qwPl2hZ2%2Fj1lzTCc%3D" H -5150 -400 50  0001 C CNN "Distributor link"
-F 7 "TE Connectivity / AMP " H -5150 -400 50  0001 C CNN "Manufacturer"
-F 8 "640456-8" H -5150 -400 50  0001 C CNN "Manufacturer PN"
+F 5 "649-68000-408HLF" H -5150 -400 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D" H -5150 -400 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI " H -5150 -400 50  0001 C CNN "Manufacturer"
+F 8 "68000-408HLF" H -5150 -400 50  0001 C CNN "Manufacturer PN"
 	1    4450 1250
 	1    0    0    -1  
 $EndComp
@@ -1816,4 +1806,14 @@ F 3 "~" H 1900 6650 50  0001 C CNN
 	1    1900 6650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 3100 6000 3100
+Wire Notes Line
+	4850 2650 7150 2650
+Wire Notes Line
+	4850 3350 7150 3350
+Wire Notes Line
+	4850 2650 4850 3350
+Wire Notes Line
+	7150 2650 7150 3350
 $EndSCHEMATC
