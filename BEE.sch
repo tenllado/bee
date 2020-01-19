@@ -1295,32 +1295,6 @@ F 3 "" H 8550 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR021
-U 1 1 5DDBF540
-P 3600 3450
-F 0 "#PWR021" H 3600 3300 50  0001 C CNN
-F 1 "+5V" V 3600 3650 50  0000 C CNN
-F 2 "" H 3600 3450 50  0001 C CNN
-F 3 "" H 3600 3450 50  0001 C CNN
-	1    3600 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR018
-U 1 1 5DDBF5F5
-P 3700 3450
-F 0 "#PWR018" H 3700 3300 50  0001 C CNN
-F 1 "+3.3V" V 3700 3600 50  0000 L CNN
-F 2 "" H 3700 3450 50  0001 C CNN
-F 3 "" H 3700 3450 50  0001 C CNN
-	1    3700 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 3450 3600 3500
-Wire Wire Line
-	3700 3450 3700 3500
-$Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5DDE33EB
 P 8850 3450
@@ -1576,19 +1550,6 @@ F 3 "~" H 1350 5950 50  0001 C CNN
 	1    1350 5950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5DB334E2
-P 3500 3300
-F 0 "#PWR022" H 3500 3050 50  0001 C CNN
-F 1 "GND" V 3450 3350 50  0000 C CNN
-F 2 "" H 3500 3300 50  0001 C CNN
-F 3 "" H 3500 3300 50  0001 C CNN
-	1    3500 3300
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3500 3300 3500 3500
 Connection ~ 3000 3150
 Wire Wire Line
 	3000 3150 3000 3500
@@ -1607,22 +1568,6 @@ F 7 "Amphenol FCI" H 0   -450 50  0001 C CNN "Manufacturer"
 F 8 "68001-403HLF" H 0   -450 50  0001 C CNN "Manufacturer PN"
 	1    4450 2000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J15
-U 1 1 5DC6DC3F
-P 3600 3700
-F 0 "J15" V 3550 3900 50  0000 L CNN
-F 1 "Conn_01x03" V 3700 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3600 3700 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 3600 3700 50  0001 C CNN
-F 4 "Mouser" H -250 0   50  0001 C CNN "Distributor"
-F 5 "649-68001-403HLF" H -250 0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H -250 0   50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H -250 0   50  0001 C CNN "Manufacturer"
-F 8 "68001-403HLF" H -250 0   50  0001 C CNN "Manufacturer PN"
-	1    3600 3700
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J14
@@ -1935,72 +1880,72 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J18
 U 1 1 5EB17189
-P 4200 3700
-F 0 "J18" V 4150 3900 50  0000 L CNN
-F 1 "Conn_01x03" V 4300 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4200 3700 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 4200 3700 50  0001 C CNN
-F 4 "Mouser" H 1200 0   50  0001 C CNN "Distributor"
-F 5 "649-68001-403HLF" H 1200 0   50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 1200 0   50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H 1200 0   50  0001 C CNN "Manufacturer"
-F 8 "68001-403HLF" H 1200 0   50  0001 C CNN "Manufacturer PN"
-	1    4200 3700
+P 3700 3700
+F 0 "J18" V 3650 3900 50  0000 L CNN
+F 1 "Conn_01x03" V 3800 3500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3700 3700 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 3700 3700 50  0001 C CNN
+F 4 "Mouser" H 700 0   50  0001 C CNN "Distributor"
+F 5 "649-68001-403HLF" H 700 0   50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 700 0   50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 700 0   50  0001 C CNN "Manufacturer"
+F 8 "68001-403HLF" H 700 0   50  0001 C CNN "Manufacturer PN"
+	1    3700 3700
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR035
 U 1 1 5EB17236
-P 4300 3400
-F 0 "#PWR035" H 4300 3250 50  0001 C CNN
-F 1 "+3.3V" H 4250 3550 50  0000 L CNN
-F 2 "" H 4300 3400 50  0001 C CNN
-F 3 "" H 4300 3400 50  0001 C CNN
-	1    4300 3400
+P 3800 3400
+F 0 "#PWR035" H 3800 3250 50  0001 C CNN
+F 1 "+3.3V" H 3750 3550 50  0000 L CNN
+F 2 "" H 3800 3400 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR033
 U 1 1 5EB172B1
-P 4100 3400
-F 0 "#PWR033" H 4100 3250 50  0001 C CNN
-F 1 "+5V" H 4100 3550 50  0000 C CNN
-F 2 "" H 4100 3400 50  0001 C CNN
-F 3 "" H 4100 3400 50  0001 C CNN
-	1    4100 3400
+P 3600 3400
+F 0 "#PWR033" H 3600 3250 50  0001 C CNN
+F 1 "+5V" H 3600 3550 50  0000 C CNN
+F 2 "" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5EB1732C
-P 4200 3100
-F 0 "#FLG04" H 4200 3175 50  0001 C CNN
-F 1 "PWR_FLAG" H 4450 3150 50  0000 C CNN
-F 2 "" H 4200 3100 50  0001 C CNN
-F 3 "~" H 4200 3100 50  0001 C CNN
-	1    4200 3100
+P 3700 3100
+F 0 "#FLG04" H 3700 3175 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 3150 50  0000 C CNN
+F 2 "" H 3700 3100 50  0001 C CNN
+F 3 "~" H 3700 3100 50  0001 C CNN
+	1    3700 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 3400 4100 3500
+	3600 3400 3600 3500
 Wire Wire Line
-	4200 3100 4200 3150
+	3700 3100 3700 3150
 Wire Wire Line
-	4300 3400 4300 3500
+	3800 3400 3800 3500
 $Comp
 L power:VCC #PWR034
 U 1 1 5EB6A1D9
-P 4200 3150
-F 0 "#PWR034" H 4200 3000 50  0001 C CNN
-F 1 "VCC" V 4217 3278 50  0000 L CNN
-F 2 "" H 4200 3150 50  0001 C CNN
-F 3 "" H 4200 3150 50  0001 C CNN
-	1    4200 3150
+P 3700 3150
+F 0 "#PWR034" H 3700 3000 50  0001 C CNN
+F 1 "VCC" V 3717 3278 50  0000 L CNN
+F 2 "" H 3700 3150 50  0001 C CNN
+F 3 "" H 3700 3150 50  0001 C CNN
+	1    3700 3150
 	0    1    1    0   
 $EndComp
-Connection ~ 4200 3150
+Connection ~ 3700 3150
 Wire Wire Line
-	4200 3150 4200 3500
+	3700 3150 3700 3500
 $Comp
 L power:VCC #PWR036
 U 1 1 5EB6A4FD
