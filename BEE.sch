@@ -1778,22 +1778,6 @@ Wire Notes Line
 Wire Notes Line
 	7150 2650 7150 3350
 $Comp
-L Connector_Generic:Conn_01x08 J7
-U 1 1 5E21A26F
-P 5950 5550
-F 0 "J7" H 5950 5950 50  0000 L CNN
-F 1 "Conn_01x08" V 6050 5150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 5950 5550 50  0001 C CNN
-F 3 "" H 5950 5550 50  0001 C CNN
-F 4 "Mouser" H -3650 3900 50  0001 C CNN "Distributor"
-F 5 " 992-8FX1L-254MM " H -3650 3900 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Gravitech/8Fx1L-254mm?qs=sGAEpiMZZMs%252BGHln7q6pmy2YKQ02S1gmaSYieH0svFDvlY3s6aL18w%3D%3D" H -3650 3900 50  0001 C CNN "Distributor link"
-F 7 "Gravitech " H -3650 3900 50  0001 C CNN "Manufacturer"
-F 8 "8Fx1L-254mm" H -3650 3900 50  0001 C CNN "Manufacturer PN"
-	1    5950 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R12
 U 1 1 5E21A3EB
 P 5400 5250
@@ -2038,72 +2022,54 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR036
 U 1 1 5EB6A4FD
-P 6250 5200
-F 0 "#PWR036" H 6250 5050 50  0001 C CNN
-F 1 "VCC" H 6267 5373 50  0000 C CNN
-F 2 "" H 6250 5200 50  0001 C CNN
-F 3 "" H 6250 5200 50  0001 C CNN
-	1    6250 5200
-	1    0    0    -1  
+P 6350 5200
+F 0 "#PWR036" H 6350 5050 50  0001 C CNN
+F 1 "VCC" H 6350 5350 50  0000 C CNN
+F 2 "" H 6350 5200 50  0001 C CNN
+F 3 "" H 6350 5200 50  0001 C CNN
+	1    6350 5200
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 5200 6250 5250
+	6350 5200 6350 5250
 Wire Wire Line
-	6250 5250 6350 5250
+	6350 5250 6250 5250
 Wire Wire Line
-	6250 5250 6250 5350
+	6350 5250 6350 5350
 Wire Wire Line
-	6250 5950 6350 5950
-Connection ~ 6250 5250
+	6350 5950 6250 5950
+Connection ~ 6350 5250
 Wire Wire Line
-	6350 5850 6250 5850
-Connection ~ 6250 5850
+	6250 5850 6350 5850
+Connection ~ 6350 5850
 Wire Wire Line
-	6250 5850 6250 5950
+	6350 5850 6350 5950
 Wire Wire Line
-	6350 5750 6250 5750
-Connection ~ 6250 5750
+	6250 5750 6350 5750
+Connection ~ 6350 5750
 Wire Wire Line
-	6250 5750 6250 5850
+	6350 5750 6350 5850
 Wire Wire Line
-	6350 5650 6250 5650
-Connection ~ 6250 5650
+	6250 5650 6350 5650
+Connection ~ 6350 5650
 Wire Wire Line
-	6250 5650 6250 5750
+	6350 5650 6350 5750
 Wire Wire Line
-	6350 5550 6250 5550
-Connection ~ 6250 5550
+	6250 5550 6350 5550
+Connection ~ 6350 5550
 Wire Wire Line
-	6250 5550 6250 5650
+	6350 5550 6350 5650
 Wire Wire Line
-	6350 5450 6250 5450
-Connection ~ 6250 5450
+	6250 5450 6350 5450
+Connection ~ 6350 5450
 Wire Wire Line
-	6250 5450 6250 5550
+	6350 5450 6350 5550
 Wire Wire Line
-	6350 5350 6250 5350
-Connection ~ 6250 5350
+	6250 5350 6350 5350
+Connection ~ 6350 5350
 Wire Wire Line
-	6250 5350 6250 5450
-$Comp
-L Connector_Generic:Conn_01x08 J19
-U 1 1 5EBF8BBB
-P 6550 5550
-F 0 "J19" H 6550 5950 50  0000 L CNN
-F 1 "Conn_01x08" V 6650 5150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 6550 5550 50  0001 C CNN
-F 3 "" H 6550 5550 50  0001 C CNN
-F 4 "Mouser" H -3050 3900 50  0001 C CNN "Distributor"
-F 5 " 992-8FX1L-254MM " H -3050 3900 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Gravitech/8Fx1L-254mm?qs=sGAEpiMZZMs%252BGHln7q6pmy2YKQ02S1gmaSYieH0svFDvlY3s6aL18w%3D%3D" H -3050 3900 50  0001 C CNN "Distributor link"
-F 7 "Gravitech " H -3050 3900 50  0001 C CNN "Manufacturer"
-F 8 "8Fx1L-254mm" H -3050 3900 50  0001 C CNN "Manufacturer PN"
-	1    6550 5550
-	1    0    0    -1  
-$EndComp
+	6350 5350 6350 5450
 Text Notes 5850 6100 0    50   ~ 0
-Socket
-Text Notes 6450 6100 0    50   ~ 0
 Socket
 Wire Wire Line
 	10050 1000 10050 1050
@@ -2249,4 +2215,22 @@ Wire Wire Line
 	9250 1950 9400 1950
 Wire Wire Line
 	9250 2050 9400 2050
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J7
+U 1 1 5E23FBF6
+P 5950 5550
+F 0 "J7" H 6000 5950 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 6000 4950 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 5950 5550 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/276/0901512116_PCB_RECEPTACLES-230157.pdf" H 5950 5550 50  0001 C CNN
+F 4 "Mouser" H 0   0   50  0001 C CNN "Distributor"
+F 5 "Molex" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 " 538-90151-2116 " H 0   0   50  0001 C CNN "Distributor PN"
+F 7 "https://www.mouser.es/ProductDetail/Molex/90151-2116?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0Xx4UQ7yBUQDzo%3D" H 0   0   50  0001 C CNN "Distributor link"
+F 8 "90151-2116 " H 0   0   50  0001 C CNN "Manufacturer PN"
+	1    5950 5550
+	1    0    0    -1  
+$EndComp
+Text Notes 4450 5000 0    50   ~ 0
+Resistor set to polarrize external analog sensors
 $EndSCHEMATC
