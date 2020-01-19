@@ -2029,12 +2029,12 @@
     )
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5DB0669B)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 5E24C806) (tstamp 5DB0669B)
     (at 148.2598 91.8718 90)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5DC61678)
-    (fp_text reference J17 (at 2.54 5.461 180) (layer F.SilkS) hide
+    (fp_text reference J17 (at 0.127 7.5438 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x03 (at 0 7.41 90) (layer F.Fab) hide
