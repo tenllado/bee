@@ -781,10 +781,6 @@ F 3 "" H 2900 950 50  0001 C CNN
 	1    2900 950 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 1050 2900 1050
-Wire Wire Line
-	2900 1050 2900 950 
 $Comp
 L power:PWR_FLAG #FLG08
 U 1 1 5E3A8777
@@ -802,19 +798,6 @@ Wire Wire Line
 	6600 2300 6600 2250
 Wire Wire Line
 	5400 2300 5400 2250
-$Comp
-L power:+3.3V #PWR01
-U 1 1 5E40233B
-P 1050 1750
-F 0 "#PWR01" H 1050 1600 50  0001 C CNN
-F 1 "+3.3V" V 1065 1878 50  0000 L CNN
-F 2 "" H 1050 1750 50  0001 C CNN
-F 3 "" H 1050 1750 50  0001 C CNN
-	1    1050 1750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1050 1750 1500 1750
 $Comp
 L power:PWR_FLAG #FLG05
 U 1 1 5E40AA2C
@@ -906,7 +889,6 @@ Wire Wire Line
 	2800 950  2900 950 
 Wire Wire Line
 	2800 1150 3000 1150
-Connection ~ 2900 950 
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5E577CB2
@@ -2233,4 +2215,6 @@ F 8 "90151-2116 " H 0   0   50  0001 C CNN "Manufacturer PN"
 $EndComp
 Text Notes 4450 5000 0    50   ~ 0
 Resistor set to polarrize external analog sensors
+NoConn ~ 1500 1750
+NoConn ~ 2800 1050
 $EndSCHEMATC
