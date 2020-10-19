@@ -505,7 +505,7 @@ L Device:Buzzer BZ1
 U 1 1 5DACBCC1
 P 6700 3100
 F 0 "BZ1" H 6853 3129 50  0000 L CNN
-F 1 "Buzzer" H 6853 3038 50  0000 L CNN
+F 1 "/re" H 6853 3038 50  0000 L CNN
 F 2 "BEElib:Buzzer" V 6675 3200 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf" V 6675 3200 50  0001 C CNN
 F 4 "Mouser" H 1050 100 50  0001 C CNN "Distributor"
@@ -1074,12 +1074,12 @@ P 8250 4300
 F 0 "C3" V 8200 4400 50  0000 C CNN
 F 1 "10uF" V 8200 4150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8288 4150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/40/tps-776850.pdf" H 8250 4300 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/40/TAJ_LOW_PROFILE-932651.pdf" H 8250 4300 50  0001 C CNN
 F 4 "Mouser" H -100 850 50  0001 C CNN "Distributor"
-F 5 " 581-TPSR106K006R1500 " H -100 850 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/AVX/TPSR106K006R1500?qs=sGAEpiMZZMuEN2agSAc2psKufjHBknpK0sDTr8oBm1I%3D" H -100 850 50  0001 C CNN "Distributor link"
+F 5 " 581-TAJP106K006RNJ " H -100 850 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/AVX/TAJP106K006RNJ?qs=q%252BHV0zBR8MhWDNAZ3JBdYA%3D%3D" H -100 850 50  0001 C CNN "Distributor link"
 F 7 "AVX" H -100 850 50  0001 C CNN "Manufacturer"
-F 8 "TPSR106K006R1500" H -100 850 50  0001 C CNN "Manufacturer PN"
+F 8 "TAJP106K006RNJ " H -100 850 50  0001 C CNN "Manufacturer PN"
 	1    8250 4300
 	0    1    1    0   
 $EndComp
@@ -1427,12 +1427,12 @@ P 1650 4150
 F 0 "R7" V 1550 4150 50  0000 C CNN
 F 1 "0" V 1750 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1580 4150 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/447/PYu-RC_Group_51_RoHS_L_10-1527934.pdf" H 1650 4150 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/447/PYu-AC_51_RoHS_L_7-1714230.pdf" H 1650 4150 50  0001 C CNN
 F 4 "Mouser" H -1050 250 50  0001 C CNN "Distributor"
-F 5 " 603-RC0805FR-070RL" H -1050 250 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Yageo/RC0805FR-070RL?qs=sGAEpiMZZMu61qfTUdNhG6gKAQVNBKOonL%252BE%2FLYSU34%3D" H -1050 250 50  0001 C CNN "Distributor link"
+F 5 " 603-AC0805FR-070RL" H -1050 250 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Yageo/AC0805FR-070RL?qs=ygRr%2FtkhteskusLKLf%2FBRw%3D%3D" H -1050 250 50  0001 C CNN "Distributor link"
 F 7 "Yageo" H -1050 250 50  0001 C CNN "Manufacturer"
-F 8 "RC0805FR-070RL" H -1050 250 50  0001 C CNN "Manufacturer PN"
+F 8 "AC0805FR-070RL" H -1050 250 50  0001 C CNN "Manufacturer PN"
 	1    1650 4150
 	0    -1   1    0   
 $EndComp
