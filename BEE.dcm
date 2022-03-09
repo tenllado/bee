@@ -1,3 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Display_7Segments
+D One digit 7 segment hyper red LED, common anode
+K display LED 7-segment
+$ENDCMP
+#
+$CMP MCP3008
+D A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 8CH
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
+$CMP MCP3208
+D A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V
+K 12bit ADC Reference Single Supply SPI 8ch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf
+$ENDCMP
+#
 #End Doc Library
