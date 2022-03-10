@@ -906,7 +906,7 @@ Wire Notes Line
 Wire Wire Line
 	9455 3405 9505 3405
 Wire Wire Line
-	8955 3305 9355 3305
+	8955 3305 9025 3305
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5E622418
@@ -938,38 +938,6 @@ $EndComp
 Connection ~ 8055 3605
 Wire Wire Line
 	8055 3605 8355 3605
-$Comp
-L Device:C C2
-U 1 1 5D974B40
-P 8355 3055
-F 0 "C2" V 8305 3155 50  0000 C CNN
-F 1 "0.1uF" V 8255 2905 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8393 2905 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 8355 3055 50  0001 C CNN
-F 4 "Mouser" H 5   -195 50  0001 C CNN "Distributor"
-F 5 "80-C0805C104K3R" H 5   -195 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D" H 5   -195 50  0001 C CNN "Distributor link"
-F 7 "KEMET" H 5   -195 50  0001 C CNN "Manufacturer"
-F 8 "C0805C104K3RACTU" H 5   -195 50  0001 C CNN "Manufacturer PN"
-	1    8355 3055
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5D974BE9
-P 8355 3255
-F 0 "C3" V 8305 3355 50  0000 C CNN
-F 1 "10uF" V 8305 3105 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8393 3105 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/40/TAJ_LOW_PROFILE-932651.pdf" H 8355 3255 50  0001 C CNN
-F 4 "Mouser" H 5   -195 50  0001 C CNN "Distributor"
-F 5 " 581-TAJP106K006RNJ " H 5   -195 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/AVX/TAJP106K006RNJ?qs=q%252BHV0zBR8MhWDNAZ3JBdYA%3D%3D" H 5   -195 50  0001 C CNN "Distributor link"
-F 7 "AVX" H 5   -195 50  0001 C CNN "Manufacturer"
-F 8 "TAJP106K006RNJ " H 5   -195 50  0001 C CNN "Manufacturer PN"
-	1    8355 3255
-	0    1    1    0   
-$EndComp
 Connection ~ 8755 3255
 Wire Wire Line
 	8755 3255 8755 3305
@@ -2468,4 +2436,72 @@ Text Label 7930 1845 0    50   ~ 0
 nSRCLR
 Text Label 7915 1945 0    50   ~ 0
 QH'
+$Comp
+L Device:C C5
+U 1 1 62DC27FC
+P 9025 3155
+F 0 "C5" V 8975 3255 50  0000 C CNN
+F 1 "0.1uF" V 8890 3155 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9063 3005 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 9025 3155 50  0001 C CNN
+F 4 "Mouser" H 675 -95 50  0001 C CNN "Distributor"
+F 5 "80-C0805C104K3R" H 675 -95 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D" H 675 -95 50  0001 C CNN "Distributor link"
+F 7 "KEMET" H 675 -95 50  0001 C CNN "Manufacturer"
+F 8 "C0805C104K3RACTU" H 675 -95 50  0001 C CNN "Manufacturer PN"
+	1    9025 3155
+	1    0    0    -1  
+$EndComp
+Connection ~ 9025 3305
+Wire Wire Line
+	9025 3305 9355 3305
+$Comp
+L power:GND #PWR038
+U 1 1 62DC48E1
+P 9215 2955
+F 0 "#PWR038" H 9215 2705 50  0001 C CNN
+F 1 "GND" H 9315 2955 50  0000 C CNN
+F 2 "" H 9215 2955 50  0001 C CNN
+F 3 "" H 9215 2955 50  0001 C CNN
+	1    9215 2955
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9215 2955 9215 2945
+Wire Wire Line
+	9215 2945 9025 2945
+Wire Wire Line
+	9025 2945 9025 3005
+$Comp
+L Device:CP1 C3
+U 1 1 5D974BE9
+P 8355 3255
+F 0 "C3" V 8485 3255 50  0000 C CNN
+F 1 "10uF" V 8305 3105 50  0000 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_Pad1.30x1.05mm_HandSolder" H 8393 3105 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/40/TAJ_LOW_PROFILE-932651.pdf" H 8355 3255 50  0001 C CNN
+F 4 "Mouser" H 5   -195 50  0001 C CNN "Distributor"
+F 5 " 581-TAJP106K006RNJ " H 5   -195 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/AVX/TAJP106K006RNJ?qs=q%252BHV0zBR8MhWDNAZ3JBdYA%3D%3D" H 5   -195 50  0001 C CNN "Distributor link"
+F 7 "AVX" H 5   -195 50  0001 C CNN "Manufacturer"
+F 8 "TAJP106K006RNJ " H 5   -195 50  0001 C CNN "Manufacturer PN"
+	1    8355 3255
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D974B40
+P 8355 3055
+F 0 "C2" V 8230 3055 50  0000 C CNN
+F 1 "0.1uF" V 8305 2900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8393 2905 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 8355 3055 50  0001 C CNN
+F 4 "Mouser" H 5   -195 50  0001 C CNN "Distributor"
+F 5 "80-C0805C104K3R" H 5   -195 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D" H 5   -195 50  0001 C CNN "Distributor link"
+F 7 "KEMET" H 5   -195 50  0001 C CNN "Manufacturer"
+F 8 "C0805C104K3RACTU" H 5   -195 50  0001 C CNN "Manufacturer PN"
+	1    8355 3055
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
