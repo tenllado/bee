@@ -1,8 +1,8 @@
 # BEE board
 
 A simple Raspberry pi expansion board, designed with educational purposes to be
-used to learn low level IO programming. It adds to the raspberry Pi the
-following circuits:
+used to learn low level IO programming or used it for simple driver development.
+It adds to the raspberry Pi the following circuits:
 
 - A 10 bits ADC with 8 channels (MCP3008), that can be connected to the SPI
   gpios using 5 jumpers, it is connected to CE0.
@@ -15,6 +15,8 @@ following circuits:
 
 - A piezo-electric buzzer that can be connected with jumpers to the pwm pins of
   the raspberry pi.
+
+- A shifter register connected to 7 Segment display (with dot point).
 
 - A UART connector for the FTDI-232-R cables to connect one of the UART devices
   of the Raspberry pi to a PC.

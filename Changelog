@@ -1,0 +1,21 @@
+Version 2.0
+
+- Added the shifter register with the 7 Segment display.
+- Modified the polarization network for analog sensors and its connection to the
+ADC.
+- Simplified the PWM header. Buzzer has now one pin connected to ground and the
+other can be connected with a jumper to gpi12 or gpi13 for PWM0 and PWM1
+respectively.
+- GPIO18 was added to the RS232 block for simplicity, should not affect the use
+of RS232 if not used, but cannot be used if an FTDI cable is connected. This may
+change in future revisions.
+
+Version 1.0
+
+Initial version after fixing some minor issues found in the first prototype and
+some additional headers where added to the board to help connecting analog
+sensors to the ADC and polarice them.
+
+Some bugs where found but not corrected:
+- C3: the footprint should be replaced for a polarized capacitor footprint.
+- Rev number in the board should be 1.0
