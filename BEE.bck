@@ -3,7 +3,6 @@ EESchema-DOCLIB  Version 2.0
 $CMP Display_7Segments
 D One digit 7 segment hyper red LED, common anode
 K display LED 7-segment
-F http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf
 $ENDCMP
 #
 $CMP MCP3008

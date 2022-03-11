@@ -1,14 +1,15 @@
 Version 2.0
 
 - Added the shifter register with the 7 Segment display.
-- Modified the polarization network for analog sensors and its connection to the
-ADC.
+- Modified the polarization network for analog sensors, including now 8 fixed
+registers and 2 potenciometers. The network is indpendent of the ADC block but
+can easily be connected. DIP switches are used to provide Vcc or GND for the
+polarization on both ends.
 - Simplified the PWM header. Buzzer has now one pin connected to ground and the
 other can be connected with a jumper to gpi12 or gpi13 for PWM0 and PWM1
 respectively.
-- GPIO18 was added to the RS232 block for simplicity, should not affect the use
-of RS232 if not used, but cannot be used if an FTDI cable is connected. This may
-change in future revisions.
+- GPIO18 was added to the block with the i2c signals
+- New jumper with gnd connections.
 
 Version 1.0
 

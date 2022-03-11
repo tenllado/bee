@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/christian/KiCad/BEE/BEE.sch</source>
+    <date>Mon 13 Jul 2020 03:57:18 PM CEST</date>
+    <tool>Eeschema 5.0.2+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BEE Board</title>
+        <company>Universidad Complutense de Madrid</company>
+        <rev>1.0</rev>
+        <date>2019-10-13</date>
+        <source>BEE.sch</source>
+        <comment number="1" value="https://github.com/tenllado/bee"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>RPI1_header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/418/NG_CD_146254_J2-1238606.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">571-7-146254-0</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/7-146254-0?qs=sGAEpiMZZMs%252BGHln7q6pm44kDepmYTI8jAW7hTb6F%2FE=</field>
+        <field name="Manufacturer">TE Connectivity / AMP</field>
+        <field name="Manufacturer PN">7-146254-0</field>
+      </fields>
+      <libsource lib="BEE" part="RPI1_header" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9261EA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9519BD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9519FF</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D951A23</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/445/150080RS75000-368622.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 710-150080RS75000 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D951AA7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/445/150080RS75000-368622.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 710-150080RS75000 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D951B12</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/445/150080RS75000-368622.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 710-150080RS75000 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">150080RS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D951B3C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D975CA9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D975CEB</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D975D19</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>BEElib:Push Button</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/140/P090002-267756.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">612-LL3301NF065QG </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Manufacturer PN">LL3301NF065QG </field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D975FB9</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>BEElib:Push Button</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/140/P090002-267756.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">612-LL3301NF065QG </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Manufacturer PN">LL3301NF065QG </field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D97603C</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>BEElib:Push Button</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/140/P090002-267756.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">612-LL3301NF065QG </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D</field>
+        <field name="Manufacturer">E-Switch</field>
+        <field name="Manufacturer PN">LL3301NF065QG </field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D97607C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP3008</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">579-MCP3008T-I/SL </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Microchip-Technology/MCP3008T-I-SL?qs=sGAEpiMZZMsUzhEcHltCuaTtDydhnt4s</field>
+        <field name="Manufacturer">Microchip Technologies</field>
+        <field name="Manufacturer PN">MCP3008T-I/S</field>
+      </fields>
+      <libsource lib="Analog_ADC" part="MCP3008" description="A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9BE187</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MCP4911</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22248a.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">579-MCP4911-E/SN</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Microchip-Technology/MCP4911-E-SN?qs=sGAEpiMZZMswix2y39yldX1d8KpQmwEZzyPncNF6qIU%3D</field>
+        <field name="Manufacturer">Microchip Technologies</field>
+        <field name="Manufacturer PN">MCP4911-E/SN </field>
+      </fields>
+      <libsource lib="Analog_DAC" part="MCP4911" description="10-Bit D/A Converters with SPI Interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA254D5</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>/re</value>
+      <footprint>BEElib:Buzzer</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/400/iezoelectronic_buzzer_ps_en-1131915.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">810-PS1720P02</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Manufacturer PN">PS1720P02</field>
+      </fields>
+      <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DACBCC1</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 538-22-28-4060 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">22-28-4060</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2C5BD0</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-402HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-402HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E64D63E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 80-C0805C105K4R</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C105K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbhbAPfOfwRmL8%3D</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0805C105K4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D95A780</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">80-C0805C104K3R</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0805C104K3RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D974B40</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/40/TAJ_LOW_PROFILE-932651.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 581-TAJP106K006RNJ </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/AVX/TAJP106K006RNJ?qs=q%252BHV0zBR8MhWDNAZ3JBdYA%3D%3D</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer PN">TAJP106K006RNJ </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D974BE9</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-402HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-402HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9D371E</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-402HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-402HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9DC83F</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-402HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-402HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9DC9AE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/67996-1142923.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-67997-210HLF </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-210HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6aE2JnujhSfI%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">67997-210HLF </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDE33EB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/276/0879140804_PCB_HEADERS-1091753.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">538-87914-0616 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/87914-0616?qs=sGAEpiMZZMs%252BGHln7q6pm8NDWwBzqQCNb%2F5NslhjlCw%3D</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">87914-0616</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE70416</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/77313-1266357.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-77313-418-20LF </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-418-20LF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMHZz%252B2IRJsFA%3D</field>
+        <field name="Manufacturer">Amphenol FCI </field>
+        <field name="Manufacturer PN">77313-418-20LF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DEECD51</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/447/PYu-AC_51_RoHS_L_7-1714230.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 603-AC0805FR-070RL</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Yageo/AC0805FR-070RL?qs=ygRr%2FtkhteskusLKLf%2FBRw%3D%3D</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">AC0805FR-070RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DF66879</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 538-22-28-4060 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">22-28-4060</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D9CD8D7</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DACDC65</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DACDD9A</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DACDDF8</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DACDE80</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-403HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-403HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC61678</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-403HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-403HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC7A1CB</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68000-408HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D</field>
+        <field name="Manufacturer">Amphenol FCI </field>
+        <field name="Manufacturer PN">68000-408HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DED01C3</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</footprint>
+      <libsource lib="BEE" part="Fiducial" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E028B4F</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</footprint>
+      <libsource lib="BEE" part="Fiducial" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E028C55</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</footprint>
+      <libsource lib="BEE" part="Fiducial" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E028CC1</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbol:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E029178</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>BEElib:bee_logo2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E0293AA</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>BEElib:UCMLogo_169_169</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E02C6EE</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E21A3EB</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E259392</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080515K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080515K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrkRO0gsOXAP1kOZ65vEhlJg%3D%3D</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer PN">CRCW080515K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25948C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080547K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080547K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSr43U41rWcj5EV2KsKY7Ceyw%3D%3D</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer PN">CRCW080547K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2595CF</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080547K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080547K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSr43U41rWcj5EV2KsKY7Ceyw%3D%3D</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer PN">CRCW080547K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E259707</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080515K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080515K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrkRO0gsOXAP1kOZ65vEhlJg%3D%3D</field>
+        <field name="Manufacturer">Vishay / Dale</field>
+        <field name="Manufacturer PN">CRCW080515K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25985A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2598F6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="Manufacturer">Vishay / Dale </field>
+        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2F8A29</tstamp>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">649-68001-403HLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">68001-403HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB17189</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x08_Top_Bottom</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 649-67996-416HLF </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/67996-416HLF?qs=sGAEpiMZZMs%252BGHln7q6pm94oVOTgRyJxoSv85f0%2FdH8%3D</field>
+        <field name="Manufacturer">Amphenol FCI</field>
+        <field name="Manufacturer PN">67996-416HLF</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E263B67</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x08_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/276/0901512116_PCB_RECEPTACLES-230157.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 538-90151-2116 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/90151-2116?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0Xx4UQ7yBUQDzo%3D</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Manufacturer PN">90151-2116 </field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E23FBF6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="MCP3208">
+      <aliases>
+        <alias>MCP3008</alias>
+      </aliases>
+      <description>A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3208</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH0" type="input"/>
+        <pin num="2" name="CH1" type="input"/>
+        <pin num="3" name="CH2" type="input"/>
+        <pin num="4" name="CH3" type="input"/>
+        <pin num="5" name="CH4" type="input"/>
+        <pin num="6" name="CH5" type="input"/>
+        <pin num="7" name="CH6" type="input"/>
+        <pin num="8" name="CH7" type="input"/>
+        <pin num="9" name="DGND" type="power_in"/>
+        <pin num="10" name="~CS~/SHDN" type="input"/>
+        <pin num="11" name="Din" type="input"/>
+        <pin num="12" name="Dout" type="output"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="AGND" type="power_in"/>
+        <pin num="15" name="Vref" type="power_in"/>
+        <pin num="16" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_DAC" part="MCP4901">
+      <aliases>
+        <alias>MCP4911</alias>
+        <alias>MCP4921</alias>
+      </aliases>
+      <description>8-Bit D/A Converters with SPI Interface</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22248a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP4901</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vdd" type="power_in"/>
+        <pin num="2" name="~CS" type="input"/>
+        <pin num="3" name="SCK" type="input"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="~LDAC" type="input"/>
+        <pin num="6" name="Vref" type="power_in"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="Vout" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="BEE" part="Fiducial">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="BEE" part="RPI1_header">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RPI1_header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V" type="power_in"/>
+        <pin num="2" name="+5V" type="power_in"/>
+        <pin num="3" name="BCM2_SDA" type="BiDi"/>
+        <pin num="4" name="+5V" type="power_in"/>
+        <pin num="5" name="BCM3_SCL" type="BiDi"/>
+        <pin num="6" name="Gnd" type="power_in"/>
+        <pin num="7" name="BCM4_TDI" type="BiDi"/>
+        <pin num="8" name="BCM14_TX" type="BiDi"/>
+        <pin num="9" name="Gnd" type="power_in"/>
+        <pin num="10" name="BCM15_RX" type="BiDi"/>
+        <pin num="11" name="BCM17" type="BiDi"/>
+        <pin num="12" name="BCM18_PWM" type="BiDi"/>
+        <pin num="13" name="BCM27_TMS" type="BiDi"/>
+        <pin num="14" name="Gnd" type="power_in"/>
+        <pin num="15" name="BCM22_TRST" type="BiDi"/>
+        <pin num="16" name="BCM23" type="BiDi"/>
+        <pin num="17" name="+3.3V" type="power_in"/>
+        <pin num="18" name="BCM24_TDO" type="BiDi"/>
+        <pin num="19" name="BCM10_MOSI" type="BiDi"/>
+        <pin num="20" name="Gnd" type="power_in"/>
+        <pin num="21" name="BCM9_MISO" type="BiDi"/>
+        <pin num="22" name="BCM25_TCK" type="BiDi"/>
+        <pin num="23" name="BCM11_SCLK" type="BiDi"/>
+        <pin num="24" name="BCM8_CE0" type="BiDi"/>
+        <pin num="25" name="Gnd" type="power_in"/>
+        <pin num="26" name="BCM7_CE1" type="BiDi"/>
+        <pin num="27" name="BCM0" type="BiDi"/>
+        <pin num="28" name="BCM1" type="BiDi"/>
+        <pin num="29" name="BCM5" type="BiDi"/>
+        <pin num="30" name="Gnd" type="power_in"/>
+        <pin num="31" name="BCM6" type="BiDi"/>
+        <pin num="32" name="BCM12" type="BiDi"/>
+        <pin num="33" name="BCM13" type="BiDi"/>
+        <pin num="34" name="Gnd" type="power_in"/>
+        <pin num="35" name="BCM19" type="BiDi"/>
+        <pin num="36" name="BCM16" type="BiDi"/>
+        <pin num="37" name="BCM26" type="BiDi"/>
+        <pin num="38" name="BCM20" type="BiDi"/>
+        <pin num="39" name="Gnd" type="power_in"/>
+        <pin num="40" name="BCM21" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Buzzer">
+      <description>Buzzer, polarized</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>/usr/share/kicad/library/Analog_ADC.lib</uri>
+    </library>
+    <library logical="Analog_DAC">
+      <uri>/usr/share/kicad/library/Analog_DAC.lib</uri>
+    </library>
+    <library logical="BEE">
+      <uri>/home/christian/KiCad/BEE/BEE.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/library/Graphic.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J18" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="3" name="/BCM27_TMS">
+      <node ref="J5" pin="7"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="4" name="Net-(J5-Pad17)">
+      <node ref="J5" pin="17"/>
+    </net>
+    <net code="5" name="Net-(J5-Pad19)">
+      <node ref="J5" pin="19"/>
+    </net>
+    <net code="6" name="/BCM22_TRST">
+      <node ref="J5" pin="3"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="7" name="/BCM4_TDI">
+      <node ref="J1" pin="7"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="SW1" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J1" pin="25"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R8" pin="2"/>
+      <node ref="J1" pin="39"/>
+      <node ref="J1" pin="34"/>
+      <node ref="J1" pin="30"/>
+      <node ref="R12" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J5" pin="18"/>
+      <node ref="J5" pin="20"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J5" pin="16"/>
+      <node ref="U2" pin="7"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J5" pin="10"/>
+      <node ref="J5" pin="12"/>
+      <node ref="J5" pin="14"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J17" pin="3"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J13-Pad3)">
+      <node ref="J13" pin="3"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="J11" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="J14" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="11" name="/BCM6">
+      <node ref="J1" pin="31"/>
+      <node ref="J16" pin="4"/>
+    </net>
+    <net code="12" name="Net-(J5-Pad15)">
+      <node ref="J5" pin="15"/>
+    </net>
+    <net code="13" name="/BCM24_TDO">
+      <node ref="J5" pin="13"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="14" name="/BCM15_RX">
+      <node ref="J1" pin="10"/>
+      <node ref="J13" pin="4"/>
+    </net>
+    <net code="15" name="/BCM14_TX">
+      <node ref="J13" pin="5"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="16" name="/BCM16_CTS">
+      <node ref="J1" pin="36"/>
+      <node ref="J13" pin="6"/>
+    </net>
+    <net code="17" name="Net-(J10-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J9-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="19" name="/BCM18_PWM0">
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="20" name="Net-(BZ1-Pad1)">
+      <node ref="BZ1" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="21" name="/BCM13_PWM1">
+      <node ref="J3" pin="5"/>
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="22" name="/BCM12_PWM0">
+      <node ref="J1" pin="32"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="23" name="Net-(BZ1-Pad2)">
+      <node ref="BZ1" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="24" name="/BCM26">
+      <node ref="J1" pin="37"/>
+      <node ref="J16" pin="8"/>
+    </net>
+    <net code="25" name="Net-(J8-Pad8)">
+      <node ref="J8" pin="8"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="26" name="/AR6">
+      <node ref="J7" pin="13"/>
+      <node ref="R15" pin="1"/>
+      <node ref="J8" pin="13"/>
+    </net>
+    <net code="27" name="Net-(J8-Pad14)">
+      <node ref="U1" pin="7"/>
+      <node ref="J8" pin="14"/>
+    </net>
+    <net code="28" name="Net-(J8-Pad16)">
+      <node ref="U1" pin="8"/>
+      <node ref="J8" pin="16"/>
+    </net>
+    <net code="29" name="Net-(J8-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="30" name="Net-(J8-Pad4)">
+      <node ref="U1" pin="2"/>
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="31" name="Net-(J8-Pad6)">
+      <node ref="U1" pin="3"/>
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="32" name="/AR4">
+      <node ref="J7" pin="9"/>
+      <node ref="J8" pin="9"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="33" name="VCC">
+      <node ref="J7" pin="16"/>
+      <node ref="J18" pin="2"/>
+      <node ref="J7" pin="10"/>
+      <node ref="J7" pin="12"/>
+      <node ref="J7" pin="14"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J7" pin="6"/>
+      <node ref="J7" pin="8"/>
+    </net>
+    <net code="34" name="Net-(J8-Pad12)">
+      <node ref="U1" pin="6"/>
+      <node ref="J8" pin="12"/>
+    </net>
+    <net code="35" name="Net-(J8-Pad10)">
+      <node ref="U1" pin="5"/>
+      <node ref="J8" pin="10"/>
+    </net>
+    <net code="36" name="Net-(J1-Pad17)">
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="38" name="/AR2">
+      <node ref="J7" pin="5"/>
+      <node ref="R13" pin="1"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="39" name="/AR0">
+      <node ref="R12" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="40" name="/AR1">
+      <node ref="J7" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="41" name="+5V">
+      <node ref="J14" pin="3"/>
+      <node ref="J18" pin="3"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="42" name="/AR7">
+      <node ref="J8" pin="15"/>
+      <node ref="J7" pin="15"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="43" name="/AR5">
+      <node ref="J7" pin="11"/>
+      <node ref="J8" pin="11"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="44" name="/AR3">
+      <node ref="R9" pin="1"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J8" pin="7"/>
+    </net>
+    <net code="45" name="/SW2">
+      <node ref="R5" pin="2"/>
+      <node ref="J4" pin="5"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="46" name="/SW3">
+      <node ref="J4" pin="4"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="48" name="/BCM10_MOSI">
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="49" name="/BCM9_MISO">
+      <node ref="J1" pin="21"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="50" name="/BCM11_SCLK">
+      <node ref="J1" pin="23"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="51" name="/BCM8_CE0">
+      <node ref="J2" pin="7"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="52" name="/BCM7_CE1">
+      <node ref="J2" pin="9"/>
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="53" name="Net-(D3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="55" name="/MOSI">
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="56" name="/MISO">
+      <node ref="U1" pin="12"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="57" name="/SCLK">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="58" name="Net-(J11-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="59" name="/CE_ADC">
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="60" name="/SW1">
+      <node ref="SW1" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="61" name="/BCM2_SDA">
+      <node ref="J17" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="62" name="/BCM3_SCL">
+      <node ref="J1" pin="5"/>
+      <node ref="J17" pin="1"/>
+    </net>
+    <net code="63" name="/BCM17_RTS">
+      <node ref="J1" pin="11"/>
+      <node ref="J13" pin="2"/>
+    </net>
+    <net code="64" name="/BCM25_TCK">
+      <node ref="J1" pin="22"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="65" name="/BCM0">
+      <node ref="J1" pin="27"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="66" name="/BCM23_RTCK">
+      <node ref="J1" pin="16"/>
+      <node ref="J5" pin="11"/>
+    </net>
+    <net code="67" name="/L2">
+      <node ref="R2" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="68" name="/L1">
+      <node ref="J4" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="69" name="/L3">
+      <node ref="R3" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="70" name="/BCM5">
+      <node ref="J16" pin="3"/>
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="71" name="/BCM19">
+      <node ref="J16" pin="5"/>
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="72" name="/BCM1">
+      <node ref="J16" pin="2"/>
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="73" name="/BCM20">
+      <node ref="J1" pin="38"/>
+      <node ref="J16" pin="6"/>
+    </net>
+    <net code="74" name="/BCM21">
+      <node ref="J1" pin="40"/>
+      <node ref="J16" pin="7"/>
+    </net>
+    <net code="75" name="/CE_DAC">
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="76" name="Net-(J12-Pad2)">
+      <node ref="J12" pin="2"/>
+      <node ref="U2" pin="8"/>
+    </net>
+  </nets>
+</export>
