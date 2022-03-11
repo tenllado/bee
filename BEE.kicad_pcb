@@ -818,7 +818,7 @@
   )
 
   (module BEElib:UCMLogo_169_169 (layer B.Cu) (tedit 0) (tstamp 5DBEC0BE)
-    (at 149.0472 97.1804 180)
+    (at 148.9964 100.203 180)
     (path /5E02C6EE)
     (fp_text reference LOGO3 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -5602,7 +5602,7 @@
   (gr_text SRCLK (at 107.2896 52.4002 90) (layer F.SilkS) (tstamp 622A2227)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
-  (gr_text "https://github.com/tenllado/bee\nrev 2.0\n" (at 149.0472 106.9594) (layer B.SilkS) (tstamp 5DCC4BBA)
+  (gr_text "https://github.com/tenllado/bee\nrev 2.0\n" (at 149.0218 109.6518) (layer B.SilkS) (tstamp 5DCC4BBA)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text B16 (at 142.4432 45.4914) (layer F.SilkS) (tstamp 5DB0AB9A)
