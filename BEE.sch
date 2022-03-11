@@ -408,7 +408,7 @@ Wire Wire Line
 	6655 1465 6655 1565
 Text Label 6455 1465 0    50   ~ 0
 SW3
-Text Notes 780  5940 0    50   ~ 0
+Text Notes 765  5845 0    50   ~ 0
 ADC
 Text Notes 5655 665  0    50   ~ 0
 Leds and Push buttons
@@ -1698,134 +1698,6 @@ Wire Notes Line
 	6225 4835 6225 4025
 Wire Notes Line
 	6225 4025 4585 4025
-$Comp
-L Device:R R16
-U 1 1 63C0EAAE
-P 9465 1140
-F 0 "R16" V 9425 880 50  0000 L CNN
-F 1 "220" V 9465 1065 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1140 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1140 50  0001 C CNN
-F 4 "Mouser" H 4065 -560 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 -560 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -560 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 -560 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 -560 50  0001 C CNN "Manufacturer PN"
-	1    9465 1140
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R17
-U 1 1 63C12E92
-P 9465 1240
-F 0 "R17" V 9415 980 50  0000 L CNN
-F 1 "220" V 9465 1165 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1240 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1240 50  0001 C CNN
-F 4 "Mouser" H 4065 -460 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 -460 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -460 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 -460 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 -460 50  0001 C CNN "Manufacturer PN"
-	1    9465 1240
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 63C1364D
-P 9465 1340
-F 0 "R18" V 9420 1080 50  0000 L CNN
-F 1 "220" V 9465 1265 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1340 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1340 50  0001 C CNN
-F 4 "Mouser" H 4065 -360 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 -360 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -360 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 -360 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 -360 50  0001 C CNN "Manufacturer PN"
-	1    9465 1340
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R19
-U 1 1 63C140F0
-P 9465 1440
-F 0 "R19" V 9415 1180 50  0000 L CNN
-F 1 "220" V 9465 1365 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1440 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1440 50  0001 C CNN
-F 4 "Mouser" H 4065 -260 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 -260 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -260 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 -260 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 -260 50  0001 C CNN "Manufacturer PN"
-	1    9465 1440
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R21
-U 1 1 63C14B13
-P 9465 1640
-F 0 "R21" V 9415 1385 50  0000 L CNN
-F 1 "220" V 9465 1565 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1640 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1640 50  0001 C CNN
-F 4 "Mouser" H 4065 -60 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 -60 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -60 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 -60 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 -60 50  0001 C CNN "Manufacturer PN"
-	1    9465 1640
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R20
-U 1 1 63C15648
-P 9465 1540
-F 0 "R20" V 9415 1280 50  0000 L CNN
-F 1 "220" V 9465 1465 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1540 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1540 50  0001 C CNN
-F 4 "Mouser" H 4065 -160 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 -160 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -160 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 -160 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 -160 50  0001 C CNN "Manufacturer PN"
-	1    9465 1540
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R22
-U 1 1 63C19E27
-P 9465 1740
-F 0 "R22" V 9415 1485 50  0000 L CNN
-F 1 "220" V 9465 1665 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1740 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1740 50  0001 C CNN
-F 4 "Mouser" H 4065 40  50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 40  50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 40  50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 40  50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 40  50  0001 C CNN "Manufacturer PN"
-	1    9465 1740
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 63C1A8B0
-P 9465 1840
-F 0 "R23" V 9415 1580 50  0000 L CNN
-F 1 "220" V 9465 1765 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1840 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1840 50  0001 C CNN
-F 4 "Mouser" H 4065 140 50  0001 C CNN "Distributor"
-F 5 " 71-CRCW0805220RFKEAC " H 4065 140 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 140 50  0001 C CNN "Distributor link"
-F 7 "Vishay / Dale " H 4065 140 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805220RFKEAC " H 4065 140 50  0001 C CNN "Manufacturer PN"
-	1    9465 1840
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9130 1140 9315 1140
 Wire Wire Line
@@ -1842,22 +1714,6 @@ Wire Wire Line
 	9130 1740 9315 1740
 Wire Wire Line
 	9315 1840 9130 1840
-Wire Wire Line
-	9615 1840 9775 1840
-Wire Wire Line
-	9775 1740 9615 1740
-Wire Wire Line
-	9615 1640 9775 1640
-Wire Wire Line
-	9615 1540 9775 1540
-Wire Wire Line
-	9615 1440 9775 1440
-Wire Wire Line
-	9615 1340 9775 1340
-Wire Wire Line
-	9615 1240 9775 1240
-Wire Wire Line
-	9615 1140 9775 1140
 $Comp
 L power:GND #PWR036
 U 1 1 63E560BB
@@ -1871,92 +1727,16 @@ F 3 "" H 8730 2260 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8730 2240 8730 2260
-$Comp
-L Connector_Generic:Conn_01x06 J6
-U 1 1 63EAEBF2
-P 7730 1515
-F 0 "J6" H 7780 1125 50  0000 R CNN
-F 1 "Conn_01x06" H 7960 1810 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7730 1515 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf" H 7730 1515 50  0001 C CNN
-F 4 "Mouser" H 2380 615 50  0001 C CNN "Distributor"
-F 5 " 538-22-28-4060 " H 2380 615 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D" H 2380 615 50  0001 C CNN "Distributor link"
-F 7 "Molex" H 2380 615 50  0001 C CNN "Manufacturer"
-F 8 "22-28-4060" H 2380 615 50  0001 C CNN "Manufacturer PN"
-	1    7730 1515
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74xx:74HC595 U5
-U 1 1 627C3D03
-P 8730 1540
-F 0 "U5" H 8470 2085 50  0000 C CNN
-F 1 "74HC595" H 8920 2085 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8730 1540 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/389/cd00000339-1795396.pdf" H 8730 1540 50  0001 C CNN
-F 4 "Mouser" H 8730 1540 50  0001 C CNN "Distributor"
-F 5 "511-M74HC595YRM13TR" H 8730 1540 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/STMicroelectronics/M74HC595YRM13TR?qs=WHlX%252B%252B9%2FRwBw%252B7pGf3ngqg%3D%3D" H 8730 1540 50  0001 C CNN "Distributor link"
-F 7 "Texas Instruments " H 8730 1540 50  0001 C CNN "Manufacturer"
-F 8 "M74HC595YRM13TR " H 8730 1540 50  0001 C CNN "Manufacturer PN"
-	1    8730 1540
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8330 1440 8100 1440
+	8295 1740 8330 1740
 Wire Wire Line
-	8100 1440 8100 1615
-Wire Wire Line
-	8100 1615 7930 1615
-Wire Wire Line
-	7930 1515 8070 1515
-Wire Wire Line
-	8070 1515 8070 1340
-Wire Wire Line
-	8070 1340 8330 1340
-Wire Wire Line
-	8330 1640 8255 1640
-Wire Wire Line
-	8255 1640 8255 1415
-Wire Wire Line
-	8255 1415 7930 1415
-Wire Wire Line
-	7930 1315 8235 1315
-Wire Wire Line
-	8235 1315 8235 1740
-Wire Wire Line
-	8235 1740 8330 1740
-Wire Wire Line
-	7930 1215 8330 1215
-Wire Wire Line
-	8330 1215 8330 1140
-Wire Wire Line
-	7930 1715 8130 1715
-Wire Wire Line
-	8130 1715 8130 2450
-Wire Wire Line
-	8130 2450 9185 2450
-Wire Wire Line
-	9185 2450 9185 2040
+	7690 1510 8160 1510
 Wire Wire Line
 	9185 2040 9130 2040
 Text Notes 7415 685  0    50   ~ 0
 7/8 Segment Display Driver
 Wire Wire Line
 	8730 795  8730 840 
-Text Notes 7505 1255 0    50   ~ 0
-SER
-Text Notes 7500 1350 0    50   ~ 0
-nOE
-Text Notes 7465 1445 0    50   ~ 0
-RCLK
-Text Notes 7435 1550 0    50   ~ 0
-SRCLK
-Text Notes 7385 1640 0    50   ~ 0
-nSRCLR\n
-Text Notes 7535 1735 0    50   ~ 0
-QH'
 $Comp
 L BEE:MCP3008 U1
 U 1 1 622BB924
@@ -1974,14 +1754,14 @@ F 8 "MCP3008T-I/SL" H 1780 6805 50  0001 C CNN "Manufacturer PN"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1880 6280 1880 6305
-Connection ~ 1880 6280
+	1880 6175 1880 6285
+Connection ~ 1880 6175
 Wire Wire Line
-	2170 6280 1880 6280
+	2170 6175 1880 6175
 Wire Wire Line
-	2170 6180 2170 6055
+	2170 6075 2170 6055
 Wire Wire Line
-	1880 6255 1880 6280
+	1880 6010 1880 6175
 $Comp
 L power:GND #PWR014
 U 1 1 5DC0D80F
@@ -1991,7 +1771,7 @@ F 1 "GND" H 1180 6105 50  0000 C CNN
 F 2 "" H 1080 6205 50  0001 C CNN
 F 3 "" H 1080 6205 50  0001 C CNN
 	1    1080 6205
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR027
@@ -2018,17 +1798,17 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 5D9D371E
-P 2370 6180
-F 0 "J11" V 2370 6330 50  0000 C CNN
-F 1 "Conn_01x02" V 2460 6235 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2370 6180 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 2370 6180 50  0001 C CNN
-F 4 "Mouser" H -5180 2280 50  0001 C CNN "Distributor"
-F 5 "649-68001-402HLF" H -5180 2280 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D" H -5180 2280 50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H -5180 2280 50  0001 C CNN "Manufacturer"
-F 8 "68001-402HLF" H -5180 2280 50  0001 C CNN "Manufacturer PN"
-	1    2370 6180
+P 2370 6075
+F 0 "J11" V 2370 6225 50  0000 C CNN
+F 1 "Conn_01x02" V 2460 6080 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2370 6075 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 2370 6075 50  0001 C CNN
+F 4 "Mouser" H -5180 2175 50  0001 C CNN "Distributor"
+F 5 "649-68001-402HLF" H -5180 2175 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D" H -5180 2175 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H -5180 2175 50  0001 C CNN "Manufacturer"
+F 8 "68001-402HLF" H -5180 2175 50  0001 C CNN "Manufacturer PN"
+	1    2370 6075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2079,12 +1859,12 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG08
 U 1 1 5E3A8777
-P 1880 6255
-F 0 "#FLG08" H 1880 6330 50  0001 C CNN
-F 1 "PWR_FLAG" H 1880 6395 50  0000 C CNN
-F 2 "" H 1880 6255 50  0001 C CNN
-F 3 "~" H 1880 6255 50  0001 C CNN
-	1    1880 6255
+P 1880 6010
+F 0 "#FLG08" H 1880 6085 50  0001 C CNN
+F 1 "PWR_FLAG" H 1880 6150 50  0000 C CNN
+F 2 "" H 1880 6010 50  0001 C CNN
+F 3 "~" H 1880 6010 50  0001 C CNN
+	1    1880 6010
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2109,17 +1889,6 @@ Text Label 780  6705 0    50   ~ 0
 SCLK
 Wire Wire Line
 	1180 6705 780  6705
-$Comp
-L power:+3.3V #PWR0109
-U 1 1 6269C1DE
-P 8730 795
-F 0 "#PWR0109" H 8730 645 50  0001 C CNN
-F 1 "+3.3V" H 8735 935 50  0000 C CNN
-F 2 "" H 8730 795 50  0001 C CNN
-F 3 "" H 8730 795 50  0001 C CNN
-	1    8730 795 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C4
 U 1 1 626C02C6
@@ -2156,14 +1925,6 @@ Wire Wire Line
 	9175 840  9380 840 
 Wire Wire Line
 	9380 840  9380 855 
-Wire Notes Line
-	7385 575  7385 2505
-Wire Notes Line
-	7385 2505 10490 2505
-Wire Notes Line
-	10490 2505 10490 570 
-Wire Notes Line
-	10490 570  7390 570 
 $Comp
 L Connector_Generic:Conn_01x03 J3
 U 1 1 6283E696
@@ -2218,49 +1979,9 @@ F 8 "22-28-4060" H -20 2615 50  0001 C CNN "Manufacturer PN"
 	1    5330 3515
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR037
-U 1 1 63E3B4A4
-P 10375 1885
-F 0 "#PWR037" H 10375 1635 50  0001 C CNN
-F 1 "GND" H 10380 1745 50  0000 C CNN
-F 2 "" H 10375 1885 50  0001 C CNN
-F 3 "" H 10375 1885 50  0001 C CNN
-	1    10375 1885
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BEE:Display_7Segments U6
-U 1 1 62BAC2F2
-P 10075 1440
-F 0 "U6" H 10075 2107 50  0000 C CNN
-F 1 "Display_7Segments" H 10075 2016 50  0000 C CNN
-F 2 "BEElib:7segments" H 10075 840 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/427/VISHS86721_1-2566488.pdf" H 9575 1915 50  0001 L CNN
-F 4 "Mouser" H 10075 1440 50  0001 C CNN "Distributor"
-F 5 "78-TDSR1360-IK " H 10075 1440 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Vishay-Semiconductors/TDSR1360-IK?qs=5csRq1wdUj5b9hoSL0MeOw%3D%3D" H 10075 1440 50  0001 C CNN "Distributor link"
-F 7 "Vishay Semiconductors" H 10075 1440 50  0001 C CNN "Manufacturer"
-F 8 "TDSR1360-IK" H 10075 1440 50  0001 C CNN "Manufacturer PN"
-	1    10075 1440
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10375 1840 10375 1885
-Wire Wire Line
-	10375 1740 10375 1840
-Connection ~ 10375 1840
-Text Label 7955 1215 0    50   ~ 0
-SER
-Text Label 7960 1315 0    50   ~ 0
-nOE
-Text Label 7960 1415 0    50   ~ 0
+Text Label 7715 1310 0    50   ~ 0
 RCLK
-Text Label 7965 1515 0    50   ~ 0
-SRCLK
-Text Label 7965 1615 0    50   ~ 0
-nSRCLR
-Text Label 7950 1715 0    50   ~ 0
+Text Label 7715 1510 0    50   ~ 0
 QH'
 $Comp
 L Device:C C5
@@ -2482,14 +2203,6 @@ F 8 "68000-408HLF" H -6960 5255 50  0001 C CNN "Manufacturer PN"
 	1    2640 6905
 	1    0    0    1   
 $EndComp
-Wire Notes Line
-	710  5815 710  7685
-Wire Notes Line
-	710  7685 2790 7685
-Wire Notes Line
-	2790 7685 2790 5815
-Wire Notes Line
-	2790 5815 710  5815
 $Comp
 L Device:R_POT RV2
 U 1 1 63A5FA9C
@@ -2829,4 +2542,347 @@ Wire Notes Line
 	11080 2680 7375 2680
 Text Notes 9305 4170 0    50   ~ 0
 With pin headers J20 and J15 resistors\ncan be connected in series and in parallel.\nCare should be taken in those cases to \nnot make shortcircuits with the DIP \nswitches. When jumping together two pins\nleave one of then in high impedance or\npolarize them both to the same voltage.
+$Comp
+L Device:C C6
+U 1 1 650CED88
+P 2095 6285
+F 0 "C6" V 2045 6185 50  0000 C CNN
+F 1 "1uF" V 2050 6390 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2133 6135 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2095 6285 50  0001 C CNN
+F 4 "Mouser" H -6155 5235 50  0001 C CNN "Distributor"
+F 5 " 80-C0805C105K4R" H -6155 5235 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/KEMET/C0805C105K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbhbAPfOfwRmL8%3D" H -6155 5235 50  0001 C CNN "Distributor link"
+F 7 "KEMET" H -6155 5235 50  0001 C CNN "Manufacturer"
+F 8 "C0805C105K4RACTU" H -6155 5235 50  0001 C CNN "Manufacturer PN"
+	1    2095 6285
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1880 6285 1945 6285
+Connection ~ 1880 6285
+Wire Wire Line
+	1880 6285 1880 6305
+$Comp
+L power:GND #PWR031
+U 1 1 6525003E
+P 2315 6285
+F 0 "#PWR031" H 2315 6035 50  0001 C CNN
+F 1 "GND" H 2415 6185 50  0000 C CNN
+F 2 "" H 2315 6285 50  0001 C CNN
+F 3 "" H 2315 6285 50  0001 C CNN
+	1    2315 6285
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2245 6285 2315 6285
+Wire Notes Line
+	675  5725 675  7670
+Wire Notes Line
+	675  7670 2800 7670
+Wire Notes Line
+	2800 7670 2800 5705
+Wire Notes Line
+	2800 5705 680  5705
+Connection ~ 10375 1840
+Wire Wire Line
+	10375 1740 10375 1840
+Wire Wire Line
+	10375 1840 10375 1885
+$Comp
+L BEE:Display_7Segments U6
+U 1 1 62BAC2F2
+P 10075 1440
+F 0 "U6" H 10075 2107 50  0000 C CNN
+F 1 "Display_7Segments" H 10075 2016 50  0000 C CNN
+F 2 "BEElib:7segments" H 10075 840 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/VISHS86721_1-2566488.pdf" H 9575 1915 50  0001 L CNN
+F 4 "Mouser" H 10075 1440 50  0001 C CNN "Distributor"
+F 5 "78-TDSR1360-IK " H 10075 1440 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Semiconductors/TDSR1360-IK?qs=5csRq1wdUj5b9hoSL0MeOw%3D%3D" H 10075 1440 50  0001 C CNN "Distributor link"
+F 7 "Vishay Semiconductors" H 10075 1440 50  0001 C CNN "Manufacturer"
+F 8 "TDSR1360-IK" H 10075 1440 50  0001 C CNN "Manufacturer PN"
+	1    10075 1440
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 63E3B4A4
+P 10375 1885
+F 0 "#PWR037" H 10375 1635 50  0001 C CNN
+F 1 "GND" H 10380 1745 50  0000 C CNN
+F 2 "" H 10375 1885 50  0001 C CNN
+F 3 "" H 10375 1885 50  0001 C CNN
+	1    10375 1885
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9615 1140 9775 1140
+Wire Wire Line
+	9615 1240 9775 1240
+Wire Wire Line
+	9615 1340 9775 1340
+Wire Wire Line
+	9615 1440 9775 1440
+Wire Wire Line
+	9615 1540 9775 1540
+Wire Wire Line
+	9615 1640 9775 1640
+Wire Wire Line
+	9775 1740 9615 1740
+Wire Wire Line
+	9615 1840 9775 1840
+$Comp
+L Device:R R23
+U 1 1 63C1A8B0
+P 9465 1840
+F 0 "R23" V 9415 1580 50  0000 L CNN
+F 1 "220" V 9465 1765 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1840 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1840 50  0001 C CNN
+F 4 "Mouser" H 4065 140 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 140 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 140 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 140 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 140 50  0001 C CNN "Manufacturer PN"
+	1    9465 1840
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 63C19E27
+P 9465 1740
+F 0 "R22" V 9415 1485 50  0000 L CNN
+F 1 "220" V 9465 1665 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1740 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1740 50  0001 C CNN
+F 4 "Mouser" H 4065 40  50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 40  50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 40  50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 40  50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 40  50  0001 C CNN "Manufacturer PN"
+	1    9465 1740
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 63C15648
+P 9465 1540
+F 0 "R20" V 9415 1280 50  0000 L CNN
+F 1 "220" V 9465 1465 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1540 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1540 50  0001 C CNN
+F 4 "Mouser" H 4065 -160 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 -160 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -160 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 -160 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 -160 50  0001 C CNN "Manufacturer PN"
+	1    9465 1540
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 63C14B13
+P 9465 1640
+F 0 "R21" V 9415 1385 50  0000 L CNN
+F 1 "220" V 9465 1565 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1640 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1640 50  0001 C CNN
+F 4 "Mouser" H 4065 -60 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 -60 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -60 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 -60 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 -60 50  0001 C CNN "Manufacturer PN"
+	1    9465 1640
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 63C140F0
+P 9465 1440
+F 0 "R19" V 9415 1180 50  0000 L CNN
+F 1 "220" V 9465 1365 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1440 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1440 50  0001 C CNN
+F 4 "Mouser" H 4065 -260 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 -260 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -260 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 -260 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 -260 50  0001 C CNN "Manufacturer PN"
+	1    9465 1440
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 63C1364D
+P 9465 1340
+F 0 "R18" V 9420 1080 50  0000 L CNN
+F 1 "220" V 9465 1265 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1340 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1340 50  0001 C CNN
+F 4 "Mouser" H 4065 -360 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 -360 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -360 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 -360 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 -360 50  0001 C CNN "Manufacturer PN"
+	1    9465 1340
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 63C12E92
+P 9465 1240
+F 0 "R17" V 9415 980 50  0000 L CNN
+F 1 "220" V 9465 1165 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1240 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1240 50  0001 C CNN
+F 4 "Mouser" H 4065 -460 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 -460 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -460 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 -460 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 -460 50  0001 C CNN "Manufacturer PN"
+	1    9465 1240
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 63C0EAAE
+P 9465 1140
+F 0 "R16" V 9425 880 50  0000 L CNN
+F 1 "220" V 9465 1065 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9395 1140 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/427/crcwce3-1223726.pdf" H 9465 1140 50  0001 C CNN
+F 4 "Mouser" H 4065 -560 50  0001 C CNN "Distributor"
+F 5 " 71-CRCW0805220RFKEAC " H 4065 -560 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D" H 4065 -560 50  0001 C CNN "Distributor link"
+F 7 "Vishay / Dale " H 4065 -560 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805220RFKEAC " H 4065 -560 50  0001 C CNN "Manufacturer PN"
+	1    9465 1140
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 654E3528
+P 8295 1780
+F 0 "#PWR041" H 8295 1530 50  0001 C CNN
+F 1 "GND" H 8300 1640 50  0000 C CNN
+F 2 "" H 8295 1780 50  0001 C CNN
+F 3 "" H 8295 1780 50  0001 C CNN
+	1    8295 1780
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8295 1740 8295 1780
+$Comp
+L power:VD #PWR042
+U 1 1 65626240
+P 8730 795
+F 0 "#PWR042" H 8730 645 50  0001 C CNN
+F 1 "VD" H 8735 925 50  0000 C CNN
+F 2 "" H 8730 795 50  0001 C CNN
+F 3 "" H 8730 795 50  0001 C CNN
+	1    8730 795 
+	1    0    0    -1  
+$EndComp
+Text Label 7715 1210 0    50   ~ 0
+SER
+Text Label 7705 1410 0    50   ~ 0
+SRCLK
+Wire Wire Line
+	8330 1140 8040 1140
+Wire Wire Line
+	8040 1140 8040 1210
+Wire Wire Line
+	8040 1210 7690 1210
+$Comp
+L BEE:74AHC595 U5
+U 1 1 6549D7A8
+P 8730 1540
+F 0 "U5" H 8505 2085 50  0000 C CNN
+F 1 "74AHC595" H 8975 2100 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8730 1540 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf" H 8730 1540 50  0001 C CNN
+	1    8730 1540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7690 1310 8255 1310
+Wire Wire Line
+	8255 1310 8255 1640
+Wire Wire Line
+	8255 1640 8330 1640
+Wire Wire Line
+	7690 1410 8210 1410
+Wire Wire Line
+	8210 1410 8210 1340
+Wire Wire Line
+	8210 1340 8330 1340
+Wire Wire Line
+	9185 2040 9185 2435
+Wire Wire Line
+	9185 2435 8160 2435
+Wire Wire Line
+	8160 2435 8160 1510
+Wire Wire Line
+	8330 1440 8310 1440
+Wire Wire Line
+	8310 1440 8310 840 
+Wire Wire Line
+	8310 840  8730 840 
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 65AD63AD
+P 7490 1210
+F 0 "J6" H 7535 1505 50  0000 R CNN
+F 1 "Conn_01x06" H 7720 815 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7490 1210 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf" H 7490 1210 50  0001 C CNN
+F 4 "Mouser" H 2140 310 50  0001 C CNN "Distributor"
+F 5 " 538-22-28-4060 " H 2140 310 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D" H 2140 310 50  0001 C CNN "Distributor link"
+F 7 "Molex" H 2140 310 50  0001 C CNN "Manufacturer"
+F 8 "22-28-4060" H 2140 310 50  0001 C CNN "Manufacturer PN"
+	1    7490 1210
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	7180 570  7180 2575
+Wire Notes Line
+	7180 2575 11085 2575
+Wire Notes Line
+	11085 2575 11085 570 
+Wire Notes Line
+	11085 570  7180 570 
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 65D8A9C3
+P 8090 950
+F 0 "#FLG0103" H 8090 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 8090 1100 50  0000 C CNN
+F 2 "" H 8090 950 50  0001 C CNN
+F 3 "~" H 8090 950 50  0001 C CNN
+	1    8090 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 65D994E0
+P 7730 945
+F 0 "#PWR0109" H 7730 795 50  0001 C CNN
+F 1 "+3.3V" H 7615 1100 50  0000 L CNN
+F 2 "" H 7730 945 50  0001 C CNN
+F 3 "" H 7730 945 50  0001 C CNN
+	1    7730 945 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7690 1010 7730 1010
+Wire Wire Line
+	7730 1010 7730 945 
+Wire Wire Line
+	7690 1110 8090 1110
+Wire Wire Line
+	8090 1110 8090 950 
+Text Label 7710 1110 0    50   ~ 0
+VD
 $EndSCHEMATC
