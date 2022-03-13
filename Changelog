@@ -9,8 +9,13 @@ enable parallel and serial combination of the resistors available.
 - Simplified the PWM header. Buzzer has now one pin connected to ground and the
 other can be connected with a jumper to gpi12 or gpi13 for PWM0 and PWM1
 respectively.
-- GPIO18 was added to the block with the i2c signals
+- GPIO18 was added to the pin header J17, with the i2c signals
+- Pin header J17 was made compatible with Pimoroni Breakouts
+(https://thepihut.com/collections/pimoroni-breakouts), except that the GPIO4 was
+replaced by GPIO18. The GPIO4 is in most of them not used or optionally used.
+The pin 4 should be replaced in software by pin 18 in case it is needed.
 - New jumper with gnd connections.
+- An RGB led module was included.
 
 Version 1.0
 

@@ -1292,22 +1292,6 @@ Connection ~ 3000 3150
 Wire Wire Line
 	3000 3150 3000 3500
 $Comp
-L Connector_Generic:Conn_01x03 J17
-U 1 1 5DC61678
-P 4255 1840
-F 0 "J17" H 4335 1882 50  0000 L CNN
-F 1 "Conn_01x03" H 4105 1640 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4255 1840 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 4255 1840 50  0001 C CNN
-F 4 "Mouser" H -195 -610 50  0001 C CNN "Distributor"
-F 5 "649-68001-403HLF" H -195 -610 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H -195 -610 50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H -195 -610 50  0001 C CNN "Manufacturer"
-F 8 "68001-403HLF" H -195 -610 50  0001 C CNN "Manufacturer PN"
-	1    4255 1840
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J14
 U 1 1 5DC7A1CB
 P 3000 3700
@@ -1350,34 +1334,34 @@ Wire Notes Line
 $Comp
 L BEE:Fiducial FID1
 U 1 1 5E028B4F
-P 6010 5110
-F 0 "FID1" H 6138 5156 50  0000 L CNN
-F 1 "Fiducial" H 6138 5065 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 6010 5110 50  0001 C CNN
-F 3 "" H 6010 5110 50  0001 C CNN
-	1    6010 5110
+P 3195 5680
+F 0 "FID1" H 3323 5726 50  0000 L CNN
+F 1 "Fiducial" H 3323 5635 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 3195 5680 50  0001 C CNN
+F 3 "" H 3195 5680 50  0001 C CNN
+	1    3195 5680
 	1    0    0    -1  
 $EndComp
 $Comp
 L BEE:Fiducial FID2
 U 1 1 5E028C55
-P 6010 5410
-F 0 "FID2" H 6138 5456 50  0000 L CNN
-F 1 "Fiducial" H 6138 5365 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 6010 5410 50  0001 C CNN
-F 3 "" H 6010 5410 50  0001 C CNN
-	1    6010 5410
+P 3195 5980
+F 0 "FID2" H 3323 6026 50  0000 L CNN
+F 1 "Fiducial" H 3323 5935 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 3195 5980 50  0001 C CNN
+F 3 "" H 3195 5980 50  0001 C CNN
+	1    3195 5980
 	1    0    0    -1  
 $EndComp
 $Comp
 L BEE:Fiducial FID3
 U 1 1 5E028CC1
-P 6660 5110
-F 0 "FID3" H 6788 5156 50  0000 L CNN
-F 1 "Fiducial" H 6788 5065 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 6660 5110 50  0001 C CNN
-F 3 "" H 6660 5110 50  0001 C CNN
-	1    6660 5110
+P 3845 5680
+F 0 "FID3" H 3973 5726 50  0000 L CNN
+F 1 "Fiducial" H 3973 5635 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 3845 5680 50  0001 C CNN
+F 3 "" H 3845 5680 50  0001 C CNN
+	1    3845 5680
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2097,7 +2081,7 @@ L Device:R_POT RV1
 U 1 1 63109756
 P 9140 4810
 F 0 "RV1" V 9225 4790 50  0000 R CNN
-F 1 "R_POT" V 9145 4930 50  0000 R CNN
+F 1 "100k" V 9140 4905 50  0000 R CNN
 F 2 "BEElib:POT_PVG5A" H 9140 4810 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/54/pvg5-907351.pdf" H 9140 4810 50  0001 C CNN
 F 4 "Mouser" H 9140 4810 50  0001 C CNN "Distributor"
@@ -2208,7 +2192,7 @@ L Device:R_POT RV2
 U 1 1 63A5FA9C
 P 8240 4810
 F 0 "RV2" V 8335 4780 50  0000 R CNN
-F 1 "R_POT" V 8245 4930 50  0000 R CNN
+F 1 "100k" V 8235 4905 50  0000 R CNN
 F 2 "BEElib:POT_PVG5A" H 8240 4810 50  0001 C CNN
 F 3 "https://www.mouser.es/datasheet/2/54/pvg5-907351.pdf" H 8240 4810 50  0001 C CNN
 F 4 "Mouser" H 8240 4810 50  0001 C CNN "Distributor"
@@ -2541,7 +2525,7 @@ Wire Notes Line
 Wire Notes Line
 	11080 2680 7375 2680
 Text Notes 9305 4170 0    50   ~ 0
-With pin headers J20 and J15 resistors\ncan be connected in series and in parallel.\nCare should be taken in those cases to \nnot make shortcircuits with the DIP \nswitches. When jumping together two pins\nleave one of then in high impedance or\npolarize them both to the same voltage.
+With pin headers J20 and J15 resistors\ncan be connected in series and in parallel.\nCare should be taken in those cases to \nnot make shortcircuits with the DIP \nswitches. When jumping together two pins\nleave one of them in high impedance or\npolarize both to the same voltage.
 $Comp
 L Device:C C6
 U 1 1 650CED88
@@ -2789,11 +2773,11 @@ SER
 Text Label 7705 1410 0    50   ~ 0
 SRCLK
 Wire Wire Line
-	8330 1140 8040 1140
+	8330 1140 8245 1140
 Wire Wire Line
-	8040 1140 8040 1210
+	8245 1140 8245 1210
 Wire Wire Line
-	8040 1210 7690 1210
+	8245 1210 7690 1210
 $Comp
 L BEE:74AHC595 U5
 U 1 1 6549D7A8
@@ -2885,4 +2869,169 @@ Wire Wire Line
 	8090 1110 8090 950 
 Text Label 7710 1110 0    50   ~ 0
 VD
+$Comp
+L Device:LED_RCGB D4
+U 1 1 65F45658
+P 6795 5215
+F 0 "D4" V 6955 5555 50  0000 R CNN
+F 1 "LED_RCGB" V 6620 5595 50  0000 R CNN
+F 2 "BEElib:LED_RCGB" H 6795 5165 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/216/AAA3528LSEKJ3ZGKQBKS-786253.pdf" H 6795 5165 50  0001 C CNN
+F 4 "Mouser" H 6795 5215 50  0001 C CNN "Distributor"
+F 5 "604-AAA3528LSEKJ3ZGK" H 6795 5215 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Kingbright/AAA3528LSEKJ3ZGKQBKS?qs=ZqXcJfGlKsjmJmyAg6W3Xw%3D%3D" H 6795 5215 50  0001 C CNN "Distributor link"
+F 7 "Kingbright" H 6795 5215 50  0001 C CNN "Manufacturer"
+F 8 "AAA3528LSEKJ3ZGKQBKS" H 6795 5215 50  0001 C CNN "Manufacturer PN"
+	1    6795 5215
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 65F837DB
+P 6595 4760
+F 0 "R24" H 6600 4900 50  0000 L CNN
+F 1 "280" V 6595 4685 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6525 4760 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 6595 4760 50  0001 C CNN
+F 4 "Mouser" H 6595 4760 50  0001 C CNN "Distributor"
+F 5 "603-RT0805FRE07280RL" H 6595 4760 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07280RL?qs=4CyHz7GXqSjRYg%252B4OLqnuw%3D%3D" H 6595 4760 50  0001 C CNN "Distributor link"
+F 7 "Yageo" H 6595 4760 50  0001 C CNN "Manufacturer"
+F 8 "RT0805FRE07280RL" H 6595 4760 50  0001 C CNN "Manufacturer PN"
+	1    6595 4760
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 65F84B20
+P 6795 4760
+F 0 "R25" H 6795 4900 50  0000 L CNN
+F 1 "100" V 6795 4685 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6725 4760 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 6795 4760 50  0001 C CNN
+F 4 "Mouser" H 6795 4760 50  0001 C CNN "Distributor"
+F 5 "603-RT0805FRE07100RL" H 6795 4760 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07100RL?qs=sGAEpiMZZMvdGkrng054t6KXXeu4PEvtDMSN1guGcqU%3D" H 6795 4760 50  0001 C CNN "Distributor link"
+F 7 "Yageo" H 6795 4760 50  0001 C CNN "Manufacturer"
+F 8 "RT0805FRE07100RL" H 6795 4760 50  0001 C CNN "Manufacturer PN"
+	1    6795 4760
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 65F853A0
+P 6995 4765
+F 0 "R26" H 6995 4910 50  0000 L CNN
+F 1 "100" V 6995 4690 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6925 4765 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 6995 4765 50  0001 C CNN
+F 4 "Mouser" H 6995 4765 50  0001 C CNN "Distributor"
+F 5 "603-RT0805FRE07100RL" H 6995 4765 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07100RL?qs=sGAEpiMZZMvdGkrng054t6KXXeu4PEvtDMSN1guGcqU%3D" H 6995 4765 50  0001 C CNN "Distributor link"
+F 7 "Yageo" H 6995 4765 50  0001 C CNN "Manufacturer"
+F 8 "RT0805FRE07100RL" H 6995 4765 50  0001 C CNN "Manufacturer PN"
+	1    6995 4765
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6595 4910 6595 5015
+Wire Wire Line
+	6795 4910 6795 5015
+Wire Wire Line
+	6995 4915 6995 5015
+$Comp
+L power:GND #PWR040
+U 1 1 65FFE21F
+P 6795 5475
+F 0 "#PWR040" H 6795 5225 50  0001 C CNN
+F 1 "GND" H 6895 5375 50  0000 C CNN
+F 2 "" H 6795 5475 50  0001 C CNN
+F 3 "" H 6795 5475 50  0001 C CNN
+	1    6795 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6795 5415 6795 5475
+$Comp
+L Connector_Generic:Conn_01x03 J21
+U 1 1 6602E635
+P 6795 4270
+F 0 "J21" V 6880 4285 50  0000 L CNN
+F 1 "Conn_01x03" V 6965 4090 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6795 4270 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 6795 4270 50  0001 C CNN
+F 4 "Mouser" H 3795 570 50  0001 C CNN "Distributor"
+F 5 "649-68001-403HLF" H 3795 570 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 3795 570 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 3795 570 50  0001 C CNN "Manufacturer"
+F 8 "68001-403HLF" H 3795 570 50  0001 C CNN "Manufacturer PN"
+	1    6795 4270
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6695 4470 6695 4500
+Wire Wire Line
+	6695 4500 6595 4500
+Wire Wire Line
+	6595 4500 6595 4610
+Wire Wire Line
+	6795 4470 6795 4610
+Wire Wire Line
+	6895 4470 6895 4500
+Wire Wire Line
+	6895 4500 6995 4500
+Wire Wire Line
+	6995 4500 6995 4615
+Wire Notes Line
+	6405 4030 6405 5660
+Wire Notes Line
+	6405 5660 7230 5660
+Wire Notes Line
+	7230 5660 7230 4035
+Wire Notes Line
+	7230 4035 6405 4035
+Text Notes 6430 4120 0    50   ~ 0
+RGB LED
+$Comp
+L Connector_Generic:Conn_01x05 J17
+U 1 1 6231A0DC
+P 4255 1840
+F 0 "J17" H 4335 1882 50  0000 L CNN
+F 1 "Conn_01x05" H 4025 1525 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4255 1840 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" H 4255 1840 50  0001 C CNN
+F 4 "Mouser" H 4255 1840 50  0001 C CNN "Distributor"
+F 5 "649-1012937890501BLF" H 4255 1840 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-905001BLF?qs=0lQeLiL1qyaKZDeebt4bog%3D%3D" H 4255 1840 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI " H 4255 1840 50  0001 C CNN "Manufacturer"
+F 8 "10129378-905001BLF" H 4255 1840 50  0001 C CNN "Manufacturer PN"
+	1    4255 1840
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 62336E7F
+P 3945 1640
+F 0 "#PWR0110" H 3945 1390 50  0001 C CNN
+F 1 "GND" V 3895 1690 50  0000 C CNN
+F 2 "" H 3945 1640 50  0001 C CNN
+F 3 "" H 3945 1640 50  0001 C CNN
+	1    3945 1640
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3945 1640 4055 1640
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 62362B56
+P 3980 2040
+F 0 "#PWR0111" H 3980 1890 50  0001 C CNN
+F 1 "+3.3V" V 3910 2105 50  0000 C CNN
+F 2 "" H 3980 2040 50  0001 C CNN
+F 3 "" H 3980 2040 50  0001 C CNN
+	1    3980 2040
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3980 2040 4055 2040
 $EndSCHEMATC
