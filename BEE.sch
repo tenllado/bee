@@ -2952,22 +2952,6 @@ F 3 "" H 6795 5475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6795 5415 6795 5475
-$Comp
-L Connector_Generic:Conn_01x03 J21
-U 1 1 6602E635
-P 6795 4270
-F 0 "J21" V 6880 4285 50  0000 L CNN
-F 1 "Conn_01x03" V 6965 4090 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6795 4270 50  0001 C CNN
-F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 6795 4270 50  0001 C CNN
-F 4 "Mouser" H 3795 570 50  0001 C CNN "Distributor"
-F 5 "649-68001-403HLF" H 3795 570 50  0001 C CNN "Distributor PN"
-F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 3795 570 50  0001 C CNN "Distributor link"
-F 7 "Amphenol FCI" H 3795 570 50  0001 C CNN "Manufacturer"
-F 8 "68001-403HLF" H 3795 570 50  0001 C CNN "Manufacturer PN"
-	1    6795 4270
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6695 4470 6695 4500
 Wire Wire Line
@@ -3034,4 +3018,20 @@ F 3 "" H 3980 2040 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3980 2040 4055 2040
+$Comp
+L Connector_Generic:Conn_01x03 J21
+U 1 1 6602E635
+P 6795 4270
+F 0 "J21" V 6880 4285 50  0000 L CNN
+F 1 "Conn_01x03" V 6965 4090 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6795 4270 50  0001 C CNN
+F 3 "https://www.mouser.es/datasheet/2/18/68000-1266375.pdf" H 6795 4270 50  0001 C CNN
+F 4 "Mouser" H 3795 570 50  0001 C CNN "Distributor"
+F 5 "649-68001-403HLF" H 3795 570 50  0001 C CNN "Distributor PN"
+F 6 "https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D" H 3795 570 50  0001 C CNN "Distributor link"
+F 7 "Amphenol FCI" H 3795 570 50  0001 C CNN "Manufacturer"
+F 8 "68001-403HLF" H 3795 570 50  0001 C CNN "Manufacturer PN"
+	1    6795 4270
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
