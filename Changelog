@@ -16,6 +16,7 @@ replaced by GPIO18. The GPIO4 is in most of them not used or optionally used.
 The pin 4 should be replaced in software by pin 18 in case it is needed.
 - New jumper with gnd connections.
 - An RGB led module was included.
+- Migrated to kicad 6.0
 
 Version 1.0
 
