@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/christian/KiCad/BEE/BEE.kicad_sch</source>
-    <date>Thu 21 Apr 2022 10:06:48 AM CEST</date>
+    <date>Thu 21 Apr 2022 07:55:41 PM CEST</date>
     <tool>Eeschema 6.0.4+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -32,15 +32,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">810-PS1720P02</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D</field>
+        <field name="MPN">PS1720P02</field>
         <field name="Manufacturer">TDK</field>
-        <field name="Manufacturer PN">PS1720P02</field>
       </fields>
       <libsource lib="Device" part="Buzzer" description="Buzzer, polarized"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="810-PS1720P02"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TDK/PS1720P02?qs=%2Fha2pyFaduij9gzHzuar2QPUvZxCzhClreZpH3Stz3Y%3D"/>
       <property name="Manufacturer" value="TDK"/>
-      <property name="Manufacturer PN" value="PS1720P02"/>
+      <property name="MPN" value="PS1720P02"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,15 +54,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 80-C0805C105K4R</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C105K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbhbAPfOfwRmL8%3D</field>
+        <field name="MPN">C0805C105K4RACTU</field>
         <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer PN">C0805C105K4RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 80-C0805C105K4R"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/KEMET/C0805C105K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbhbAPfOfwRmL8%3D"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Manufacturer PN" value="C0805C105K4RACTU"/>
+      <property name="MPN" value="C0805C105K4RACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -76,15 +76,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">80-C0805C104K3R</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D</field>
+        <field name="MPN">C0805C104K3RACTU</field>
         <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer PN">C0805C104K3RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="80-C0805C104K3R"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Manufacturer PN" value="C0805C104K3RACTU"/>
+      <property name="MPN" value="C0805C104K3RACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -97,15 +97,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 581-TAJP106K006RNJ </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/AVX/TAJP106K006RNJ?qs=q%252BHV0zBR8MhWDNAZ3JBdYA%3D%3D</field>
+        <field name="MPN">TAJP106K006RNJ </field>
         <field name="Manufacturer">AVX</field>
-        <field name="Manufacturer PN">TAJP106K006RNJ </field>
       </fields>
       <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 581-TAJP106K006RNJ "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/AVX/TAJP106K006RNJ?qs=q%252BHV0zBR8MhWDNAZ3JBdYA%3D%3D"/>
       <property name="Manufacturer" value="AVX"/>
-      <property name="Manufacturer PN" value="TAJP106K006RNJ "/>
+      <property name="MPN" value="TAJP106K006RNJ "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,15 +119,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">80-C0805C104K3R</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D</field>
+        <field name="MPN">C0805C104K3RACTU</field>
         <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer PN">C0805C104K3RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="80-C0805C104K3R"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Manufacturer PN" value="C0805C104K3RACTU"/>
+      <property name="MPN" value="C0805C104K3RACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -141,15 +141,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">80-C0805C104K3R</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D</field>
+        <field name="MPN">C0805C104K3RACTU</field>
         <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer PN">C0805C104K3RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="80-C0805C104K3R"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/KEMET/C0805C104K3RACTU?qs=sGAEpiMZZMs0AnBnWHyRQFCCI5cSbRT%2FqS%252BgegeU2mQ%3D"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Manufacturer PN" value="C0805C104K3RACTU"/>
+      <property name="MPN" value="C0805C104K3RACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,15 +163,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 80-C0805C105K4R</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/KEMET/C0805C105K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbhbAPfOfwRmL8%3D</field>
+        <field name="MPN">C0805C105K4RACTU</field>
         <field name="Manufacturer">KEMET</field>
-        <field name="Manufacturer PN">C0805C105K4RACTU</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 80-C0805C105K4R"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/KEMET/C0805C105K4RACTU?qs=sGAEpiMZZMs0AnBnWHyRQOf5HOpVaXbhbAPfOfwRmL8%3D"/>
       <property name="Manufacturer" value="KEMET"/>
-      <property name="Manufacturer PN" value="C0805C105K4RACTU"/>
+      <property name="MPN" value="C0805C105K4RACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -185,15 +185,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 710-150080RS75000 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D</field>
+        <field name="MPN">150080RS75000</field>
         <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer PN">150080RS75000</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 710-150080RS75000 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D"/>
       <property name="Manufacturer" value="Wurth Elektronik"/>
-      <property name="Manufacturer PN" value="150080RS75000"/>
+      <property name="MPN" value="150080RS75000"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -207,15 +207,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 710-150080RS75000 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D</field>
+        <field name="MPN">150080RS75000</field>
         <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer PN">150080RS75000</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 710-150080RS75000 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D"/>
       <property name="Manufacturer" value="Wurth Elektronik"/>
-      <property name="Manufacturer PN" value="150080RS75000"/>
+      <property name="MPN" value="150080RS75000"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,15 +229,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 710-150080RS75000 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D</field>
+        <field name="MPN">150080RS75000</field>
         <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer PN">150080RS75000</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 710-150080RS75000 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Wurth-Elektronik/150080RS75000?qs=sGAEpiMZZMseGfSY3csMkQ6oANueNQcIWZauLnp6GcWRTQJwjw7fdA%3D%3D"/>
       <property name="Manufacturer" value="Wurth Elektronik"/>
-      <property name="Manufacturer PN" value="150080RS75000"/>
+      <property name="MPN" value="150080RS75000"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -246,20 +246,19 @@
     <comp ref="D4">
       <value>LED_RGB</value>
       <footprint>BEElib:LED_RGB_5050-6</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/445/150505M173300-1715297.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">710-150505M173300</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D</field>
+        <field name="MPN">150505M173300</field>
         <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer PN">150505M173300</field>
       </fields>
-      <libsource lib="Device" part="LED_RGB" description="RGB LED, 6 pin package"/>
+      <libsource lib="BEE" part="LED_RGB" description="RGB LED, 6 pin package"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="710-150505M173300"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D"/>
       <property name="Manufacturer" value="Wurth Elektronik"/>
-      <property name="Manufacturer PN" value="150505M173300"/>
+      <property name="MPN" value="150505M173300"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -336,15 +335,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">571-7-146254-0</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/7-146254-0?qs=sGAEpiMZZMs%252BGHln7q6pm44kDepmYTI8jAW7hTb6F%2FE=</field>
+        <field name="MPN">7-146254-0</field>
         <field name="Manufacturer">TE Connectivity / AMP</field>
-        <field name="Manufacturer PN">7-146254-0</field>
       </fields>
       <libsource lib="BEE" part="RPI1_header" description=""/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="571-7-146254-0"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/7-146254-0?qs=sGAEpiMZZMs%252BGHln7q6pm44kDepmYTI8jAW7hTb6F%2FE="/>
       <property name="Manufacturer" value="TE Connectivity / AMP"/>
-      <property name="Manufacturer PN" value="7-146254-0"/>
+      <property name="MPN" value="7-146254-0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -358,15 +357,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-67997-210HLF </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-210HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6aE2JnujhSfI%3D</field>
+        <field name="MPN">67997-210HLF </field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">67997-210HLF </field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-67997-210HLF "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/67997-210HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6aE2JnujhSfI%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="67997-210HLF "/>
+      <property name="MPN" value="67997-210HLF "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -380,15 +379,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-403HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="MPN">68001-403HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-403HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-403HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-403HLF"/>
+      <property name="MPN" value="68001-403HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -402,15 +401,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 538-22-28-4060 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
+        <field name="MPN">22-28-4060</field>
         <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer PN">22-28-4060</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 538-22-28-4060 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D"/>
       <property name="Manufacturer" value="Molex"/>
-      <property name="Manufacturer PN" value="22-28-4060"/>
+      <property name="MPN" value="22-28-4060"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -424,15 +423,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-77313-418-20LF </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-418-20LF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMHZz%252B2IRJsFA%3D</field>
+        <field name="MPN">77313-418-20LF</field>
         <field name="Manufacturer">Amphenol FCI </field>
-        <field name="Manufacturer PN">77313-418-20LF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-77313-418-20LF "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-418-20LF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMHZz%252B2IRJsFA%3D"/>
       <property name="Manufacturer" value="Amphenol FCI "/>
-      <property name="Manufacturer PN" value="77313-418-20LF"/>
+      <property name="MPN" value="77313-418-20LF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -446,15 +445,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 538-22-28-4060 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
+        <field name="MPN">22-28-4060</field>
         <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer PN">22-28-4060</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 538-22-28-4060 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D"/>
       <property name="Manufacturer" value="Molex"/>
-      <property name="Manufacturer PN" value="22-28-4060"/>
+      <property name="MPN" value="22-28-4060"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -468,15 +467,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">710-61301021821 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/61301021821?qs=W%252B2sBeLta1YA5oaKnMERsA%3D%3D</field>
+        <field name="MPN">61301021821</field>
         <field name="Manufacturer">Wurth Elektronik </field>
-        <field name="Manufacturer PN">61301021821</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="710-61301021821 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Wurth-Elektronik/61301021821?qs=W%252B2sBeLta1YA5oaKnMERsA%3D%3D"/>
       <property name="Manufacturer" value="Wurth Elektronik "/>
-      <property name="Manufacturer PN" value="61301021821"/>
+      <property name="MPN" value="61301021821"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -490,15 +489,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68000-408HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D</field>
+        <field name="MPN">68000-408HLF</field>
         <field name="Manufacturer">Amphenol FCI </field>
-        <field name="Manufacturer PN">68000-408HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68000-408HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D"/>
       <property name="Manufacturer" value="Amphenol FCI "/>
-      <property name="Manufacturer PN" value="68000-408HLF"/>
+      <property name="MPN" value="68000-408HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -512,15 +511,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-402HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="MPN">68001-402HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-402HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-402HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-402HLF"/>
+      <property name="MPN" value="68001-402HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -534,15 +533,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-402HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="MPN">68001-402HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-402HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-402HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-402HLF"/>
+      <property name="MPN" value="68001-402HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -556,15 +555,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-402HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="MPN">68001-402HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-402HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-402HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-402HLF"/>
+      <property name="MPN" value="68001-402HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -578,15 +577,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-402HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
+        <field name="MPN">68001-402HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-402HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-402HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-402HLF"/>
+      <property name="MPN" value="68001-402HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -600,15 +599,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 538-22-28-4060 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
+        <field name="MPN">22-28-4060</field>
         <field name="Manufacturer">Molex</field>
-        <field name="Manufacturer PN">22-28-4060</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 538-22-28-4060 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D"/>
       <property name="Manufacturer" value="Molex"/>
-      <property name="Manufacturer PN" value="22-28-4060"/>
+      <property name="MPN" value="22-28-4060"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -622,15 +621,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-403HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="MPN">68001-403HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-403HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-403HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-403HLF"/>
+      <property name="MPN" value="68001-403HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -644,15 +643,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-77313-418-20LF </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-418-20LF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMHZz%252B2IRJsFA%3D</field>
+        <field name="MPN">77313-418-20LF</field>
         <field name="Manufacturer">Amphenol FCI </field>
-        <field name="Manufacturer PN">77313-418-20LF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-77313-418-20LF "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-418-20LF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMHZz%252B2IRJsFA%3D"/>
       <property name="Manufacturer" value="Amphenol FCI "/>
-      <property name="Manufacturer PN" value="77313-418-20LF"/>
+      <property name="MPN" value="77313-418-20LF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -666,15 +665,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68000-408HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D</field>
+        <field name="MPN">68000-408HLF</field>
         <field name="Manufacturer">Amphenol FCI </field>
-        <field name="Manufacturer PN">68000-408HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68000-408HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68000-408HLF?qs=sGAEpiMZZMs%252BGHln7q6pm2nKUjHUi6l6ApDmVWDJh%2FE%3D"/>
       <property name="Manufacturer" value="Amphenol FCI "/>
-      <property name="Manufacturer PN" value="68000-408HLF"/>
+      <property name="MPN" value="68000-408HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -688,15 +687,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-1012937890501BLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-905001BLF?qs=0lQeLiL1qyaKZDeebt4bog%3D%3D</field>
+        <field name="MPN">10129378-905001BLF</field>
         <field name="Manufacturer">Amphenol FCI </field>
-        <field name="Manufacturer PN">10129378-905001BLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-1012937890501BLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-905001BLF?qs=0lQeLiL1qyaKZDeebt4bog%3D%3D"/>
       <property name="Manufacturer" value="Amphenol FCI "/>
-      <property name="Manufacturer PN" value="10129378-905001BLF"/>
+      <property name="MPN" value="10129378-905001BLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -710,15 +709,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-403HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="MPN">68001-403HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-403HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-403HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-403HLF"/>
+      <property name="MPN" value="68001-403HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -732,15 +731,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-403HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="MPN">68001-403HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-403HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-403HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-403HLF"/>
+      <property name="MPN" value="68001-403HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -754,15 +753,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-1012937891001BLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-910001BLF?qs=0lQeLiL1qyaKTim8PTf2WA%3D%3D</field>
+        <field name="MPN">10129378-910001BLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">10129378-910001BLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-1012937891001BLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-910001BLF?qs=0lQeLiL1qyaKTim8PTf2WA%3D%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="10129378-910001BLF"/>
+      <property name="MPN" value="10129378-910001BLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -776,15 +775,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">649-68001-403HLF</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D</field>
+        <field name="MPN">68001-403HLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
-        <field name="Manufacturer PN">68001-403HLF</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="649-68001-403HLF"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-403HLF?qs=sGAEpiMZZMs%252BGHln7q6pm%2FK1Y9dcUIE1Zb6%2FMRCtGFY%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="Manufacturer PN" value="68001-403HLF"/>
+      <property name="MPN" value="68001-403HLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -825,15 +824,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -847,15 +846,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -869,15 +868,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -891,15 +890,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="MPN">CRCW080510K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080510K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW080510K0FKEAC"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -913,15 +912,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="MPN">CRCW080510K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080510K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW080510K0FKEAC"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -935,15 +934,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="MPN">CRCW080510K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080510K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW080510K0FKEAC"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -957,15 +956,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 603-AC0805FR-070RL</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Yageo/AC0805FR-070RL?qs=ygRr%2FtkhteskusLKLf%2FBRw%3D%3D</field>
+        <field name="MPN">AC0805FR-070RL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer PN">AC0805FR-070RL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 603-AC0805FR-070RL"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Yageo/AC0805FR-070RL?qs=ygRr%2FtkhteskusLKLf%2FBRw%3D%3D"/>
       <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer PN" value="AC0805FR-070RL"/>
+      <property name="MPN" value="AC0805FR-070RL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -979,15 +978,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1001,15 +1000,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1023,15 +1022,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="MPN">CRCW080510K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080510K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW080510K0FKEAC"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1045,15 +1044,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080510K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D</field>
+        <field name="MPN">CRCW080510K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW080510K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080510K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080510K0FKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWcT48uZO055s%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW080510K0FKEAC"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1067,15 +1066,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080515K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080515K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrkRO0gsOXAP1kOZ65vEhlJg%3D%3D</field>
+        <field name="MPN">CRCW080515K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer PN">CRCW080515K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080515K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080515K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrkRO0gsOXAP1kOZ65vEhlJg%3D%3D"/>
       <property name="Manufacturer" value="Vishay / Dale"/>
-      <property name="Manufacturer PN" value="CRCW080515K0FKEAC"/>
+      <property name="MPN" value="CRCW080515K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1089,15 +1088,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080515K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080515K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrkRO0gsOXAP1kOZ65vEhlJg%3D%3D</field>
+        <field name="MPN">CRCW080515K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer PN">CRCW080515K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080515K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080515K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSrkRO0gsOXAP1kOZ65vEhlJg%3D%3D"/>
       <property name="Manufacturer" value="Vishay / Dale"/>
-      <property name="Manufacturer PN" value="CRCW080515K0FKEAC"/>
+      <property name="MPN" value="CRCW080515K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1111,15 +1110,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080547K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080547K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSr43U41rWcj5EV2KsKY7Ceyw%3D%3D</field>
+        <field name="MPN">CRCW080547K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer PN">CRCW080547K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080547K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080547K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSr43U41rWcj5EV2KsKY7Ceyw%3D%3D"/>
       <property name="Manufacturer" value="Vishay / Dale"/>
-      <property name="Manufacturer PN" value="CRCW080547K0FKEAC"/>
+      <property name="MPN" value="CRCW080547K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1133,15 +1132,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">71-CRCW080547K0FKEAC</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080547K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSr43U41rWcj5EV2KsKY7Ceyw%3D%3D</field>
+        <field name="MPN">CRCW080547K0FKEAC</field>
         <field name="Manufacturer">Vishay / Dale</field>
-        <field name="Manufacturer PN">CRCW080547K0FKEAC</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="71-CRCW080547K0FKEAC"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW080547K0FKEAC?qs=sGAEpiMZZMu61qfTUdNhG9bvwnXh9sSr43U41rWcj5EV2KsKY7Ceyw%3D%3D"/>
       <property name="Manufacturer" value="Vishay / Dale"/>
-      <property name="Manufacturer PN" value="CRCW080547K0FKEAC"/>
+      <property name="MPN" value="CRCW080547K0FKEAC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1155,15 +1154,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1177,15 +1176,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1199,15 +1198,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1221,15 +1220,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1243,15 +1242,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1265,15 +1264,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1287,15 +1286,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1309,15 +1308,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN"> 71-CRCW0805220RFKEAC </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D</field>
+        <field name="MPN">CRCW0805220RFKEAC </field>
         <field name="Manufacturer">Vishay / Dale </field>
-        <field name="Manufacturer PN">CRCW0805220RFKEAC </field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value=" 71-CRCW0805220RFKEAC "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Dale/CRCW0805220RFKEAC?qs=sGAEpiMZZMtlubZbdhIBIIZe04wfiaJWok%252BUhooQBI8%3D"/>
       <property name="Manufacturer" value="Vishay / Dale "/>
-      <property name="Manufacturer PN" value="CRCW0805220RFKEAC "/>
+      <property name="MPN" value="CRCW0805220RFKEAC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1331,15 +1330,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">603-RT0805FRE07280RL</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07280RL?qs=4CyHz7GXqSjRYg%252B4OLqnuw%3D%3D</field>
+        <field name="MPN">RT0805FRE07280RL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer PN">RT0805FRE07280RL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="603-RT0805FRE07280RL"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07280RL?qs=4CyHz7GXqSjRYg%252B4OLqnuw%3D%3D"/>
       <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer PN" value="RT0805FRE07280RL"/>
+      <property name="MPN" value="RT0805FRE07280RL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1353,15 +1352,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">603-RT0805FRE07100RL</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07100RL?qs=sGAEpiMZZMvdGkrng054t6KXXeu4PEvtDMSN1guGcqU%3D</field>
+        <field name="MPN">RT0805FRE07100RL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer PN">RT0805FRE07100RL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="603-RT0805FRE07100RL"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07100RL?qs=sGAEpiMZZMvdGkrng054t6KXXeu4PEvtDMSN1guGcqU%3D"/>
       <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer PN" value="RT0805FRE07100RL"/>
+      <property name="MPN" value="RT0805FRE07100RL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1375,15 +1374,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">603-RT0805FRE07100RL</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07100RL?qs=sGAEpiMZZMvdGkrng054t6KXXeu4PEvtDMSN1guGcqU%3D</field>
+        <field name="MPN">RT0805FRE07100RL</field>
         <field name="Manufacturer">Yageo</field>
-        <field name="Manufacturer PN">RT0805FRE07100RL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="603-RT0805FRE07100RL"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/YAGEO/RT0805FRE07100RL?qs=sGAEpiMZZMvdGkrng054t6KXXeu4PEvtDMSN1guGcqU%3D"/>
       <property name="Manufacturer" value="Yageo"/>
-      <property name="Manufacturer PN" value="RT0805FRE07100RL"/>
+      <property name="MPN" value="RT0805FRE07100RL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1396,15 +1395,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">81-PVG5A104C03R00 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Bourns/PVG5A104C03R00?qs=K6aI6PsrKE3%252BPgV2DS4AAg%3D%3D</field>
+        <field name="MPN">PVG5A104C03R00</field>
         <field name="Manufacturer">Bourns </field>
-        <field name="Manufacturer PN">PVG5A104C03R00</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="81-PVG5A104C03R00 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Bourns/PVG5A104C03R00?qs=K6aI6PsrKE3%252BPgV2DS4AAg%3D%3D"/>
       <property name="Manufacturer" value="Bourns "/>
-      <property name="Manufacturer PN" value="PVG5A104C03R00"/>
+      <property name="MPN" value="PVG5A104C03R00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1417,15 +1416,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">81-PVG5A104C03R00 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Bourns/PVG5A104C03R00?qs=K6aI6PsrKE3%252BPgV2DS4AAg%3D%3D</field>
+        <field name="MPN">PVG5A104C03R00</field>
         <field name="Manufacturer">Bourns </field>
-        <field name="Manufacturer PN">PVG5A104C03R00</field>
       </fields>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="81-PVG5A104C03R00 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Bourns/PVG5A104C03R00?qs=K6aI6PsrKE3%252BPgV2DS4AAg%3D%3D"/>
       <property name="Manufacturer" value="Bourns "/>
-      <property name="Manufacturer PN" value="PVG5A104C03R00"/>
+      <property name="MPN" value="PVG5A104C03R00"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1439,12 +1438,12 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">612-LL3301NF065QG </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D</field>
+        <field name="MPN">LL3301NF065QG </field>
         <field name="Manufacturer">E-Switch</field>
-        <field name="Manufacturer PN">LL3301NF065QG </field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Manufacturer" value="E-Switch"/>
-      <property name="Manufacturer PN" value="LL3301NF065QG "/>
+      <property name="MPN" value="LL3301NF065QG "/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="612-LL3301NF065QG "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D"/>
@@ -1461,15 +1460,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">612-LL3301NF065QG </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D</field>
+        <field name="MPN">LL3301NF065QG </field>
         <field name="Manufacturer">E-Switch</field>
-        <field name="Manufacturer PN">LL3301NF065QG </field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="612-LL3301NF065QG "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D"/>
       <property name="Manufacturer" value="E-Switch"/>
-      <property name="Manufacturer PN" value="LL3301NF065QG "/>
+      <property name="MPN" value="LL3301NF065QG "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1483,15 +1482,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">612-LL3301NF065QG </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D</field>
+        <field name="MPN">LL3301NF065QG </field>
         <field name="Manufacturer">E-Switch</field>
-        <field name="Manufacturer PN">LL3301NF065QG </field>
       </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="612-LL3301NF065QG "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/E-Switch/LL3301NF065QG?qs=QtyuwXswaQiWhwgY68YTTw%3D%3D"/>
       <property name="Manufacturer" value="E-Switch"/>
-      <property name="Manufacturer PN" value="LL3301NF065QG "/>
+      <property name="MPN" value="LL3301NF065QG "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1505,15 +1504,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">579-MCP3008T-I/SL</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Microchip-Technology/MCP3008T-I-SL?qs=e4wS3D8CKP5diqjjsUuSnQ%3D%3D</field>
+        <field name="MPN">MCP3008T-I/SL</field>
         <field name="Manufacturer">Microchip Technologies</field>
-        <field name="Manufacturer PN">MCP3008T-I/SL</field>
       </fields>
       <libsource lib="BEE" part="MCP3008" description="A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="579-MCP3008T-I/SL"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Microchip-Technology/MCP3008T-I-SL?qs=e4wS3D8CKP5diqjjsUuSnQ%3D%3D"/>
       <property name="Manufacturer" value="Microchip Technologies"/>
-      <property name="Manufacturer PN" value="MCP3008T-I/SL"/>
+      <property name="MPN" value="MCP3008T-I/SL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1527,15 +1526,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">579-MCP4911-E/SN</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Microchip-Technology/MCP4911-E-SN?qs=sGAEpiMZZMswix2y39yldX1d8KpQmwEZzyPncNF6qIU%3D</field>
+        <field name="MPN">CP3008T-I/SL</field>
         <field name="Manufacturer">Microchip Technologies</field>
-        <field name="Manufacturer PN">CP3008T-I/SL</field>
       </fields>
       <libsource lib="Analog_DAC" part="MCP4911" description="10-Bit D/A Converters with SPI Interface"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="579-MCP4911-E/SN"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Microchip-Technology/MCP4911-E-SN?qs=sGAEpiMZZMswix2y39yldX1d8KpQmwEZzyPncNF6qIU%3D"/>
       <property name="Manufacturer" value="Microchip Technologies"/>
-      <property name="Manufacturer PN" value="CP3008T-I/SL"/>
+      <property name="MPN" value="CP3008T-I/SL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1549,15 +1548,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">506-TDS10SGRNTU04 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D</field>
+        <field name="MPN">TDS10SGRNTU04</field>
         <field name="Manufacturer">TE Connectivity / Alcoswitch </field>
-        <field name="Manufacturer PN">TDS10SGRNTU04</field>
       </fields>
       <libsource lib="BEE" part="Dip_10xsp3t" description=""/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="506-TDS10SGRNTU04 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D"/>
       <property name="Manufacturer" value="TE Connectivity / Alcoswitch "/>
-      <property name="Manufacturer PN" value="TDS10SGRNTU04"/>
+      <property name="MPN" value="TDS10SGRNTU04"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1571,15 +1570,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">506-TDS10SGRNTU04 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D</field>
+        <field name="MPN">TDS10SGRNTU04</field>
         <field name="Manufacturer">TE Connectivity / Alcoswitch </field>
-        <field name="Manufacturer PN">TDS10SGRNTU04</field>
       </fields>
       <libsource lib="BEE" part="Dip_10xsp3t" description=""/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="506-TDS10SGRNTU04 "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D"/>
       <property name="Manufacturer" value="TE Connectivity / Alcoswitch "/>
-      <property name="Manufacturer PN" value="TDS10SGRNTU04"/>
+      <property name="MPN" value="TDS10SGRNTU04"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1589,7 +1588,19 @@
       <value>74AHC595</value>
       <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT595.pdf</datasheet>
+      <fields>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN"> 621-74AHC595S16-13 </field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Diodes-Incorporated/74AHC595S16-13?qs=Oxncjon6mbov2%252BL9NpnqrA%3D%3D</field>
+        <field name="MPN">74AHC595S16-13</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+      </fields>
       <libsource lib="BEE" part="74AHC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Distributor" value="Mouser"/>
+      <property name="Distributor PN" value=" 621-74AHC595S16-13 "/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Diodes-Incorporated/74AHC595S16-13?qs=Oxncjon6mbov2%252BL9NpnqrA%3D%3D"/>
+      <property name="MPN" value="74AHC595S16-13"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1603,15 +1614,15 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">78-TDSR1360-IK </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Vishay-Semiconductors/TDSR1360-IK?qs=5csRq1wdUj5b9hoSL0MeOw%3D%3D</field>
+        <field name="MPN">TDSR1360-IK</field>
         <field name="Manufacturer">Vishay Semiconductors</field>
-        <field name="Manufacturer PN">TDSR1360-IK</field>
       </fields>
       <libsource lib="BEE" part="Display_7Segments" description="One digit 7 segment hyper red LED, common anode"/>
       <property name="Distributor" value="Mouser"/>
       <property name="Distributor PN" value="78-TDSR1360-IK "/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Vishay-Semiconductors/TDSR1360-IK?qs=5csRq1wdUj5b9hoSL0MeOw%3D%3D"/>
       <property name="Manufacturer" value="Vishay Semiconductors"/>
-      <property name="Manufacturer PN" value="TDSR1360-IK"/>
+      <property name="MPN" value="TDSR1360-IK"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1725,6 +1736,34 @@
         <field name="Reference">FID</field>
         <field name="Value">Fiducial</field>
       </fields>
+    </libpart>
+    <libpart lib="BEE" part="LED_RGB">
+      <description>RGB LED, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">LED_RGB</field>
+        <field name="Footprint">BEElib:LED_RGB_5050-6</field>
+        <field name="Datasheet">~</field>
+        <field name="Distributor">Mouser</field>
+        <field name="Distributor PN">710-150505M173300</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="MPN">150505M173300</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="RA" type="passive"/>
+        <pin num="3" name="GK" type="passive"/>
+        <pin num="4" name="GA" type="passive"/>
+        <pin num="5" name="BK" type="passive"/>
+        <pin num="6" name="BA" type="passive"/>
+      </pins>
     </libpart>
     <libpart lib="BEE" part="MCP3008">
       <description>A/D Converter, 10-Bit, 8-Channel, SPI Interface , 2.7V-5.5V</description>
@@ -2045,34 +2084,6 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="LED_RGB">
-      <description>RGB LED, 6 pin package</description>
-      <docs>https://www.mouser.es/datasheet/2/445/150505M173300-1715297.pdf</docs>
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D4</field>
-        <field name="Value">LED_RGB</field>
-        <field name="Footprint">LED_SMD:LED_RGB_5050-6</field>
-        <field name="Datasheet">https://www.mouser.es/datasheet/2/445/150505M173300-1715297.pdf</field>
-        <field name="Distributor">Mouser</field>
-        <field name="Distributor PN">710-150505M173300</field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Wurth-Elektronik/150505M173300?qs=fAHHVMwC%252Bbi%2FURn4Qu0%2FAA%3D%3D</field>
-        <field name="Manufacturer">Wurth Elektronik</field>
-        <field name="Manufacturer PN">150505M173300</field>
-      </fields>
-      <pins>
-        <pin num="1" name="RK" type="passive"/>
-        <pin num="2" name="RA" type="passive"/>
-        <pin num="3" name="GK" type="passive"/>
-        <pin num="4" name="GA" type="passive"/>
-        <pin num="5" name="BK" type="passive"/>
-        <pin num="6" name="BA" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">

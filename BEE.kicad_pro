@@ -486,7 +486,7 @@
       "idf": "",
       "netlist": "BEE.net",
       "specctra_dsn": "",
-      "step": "output/BEE.step",
+      "step": "output/3dmodel/BEE.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
