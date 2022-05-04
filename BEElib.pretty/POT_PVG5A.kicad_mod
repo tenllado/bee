@@ -17,9 +17,9 @@
   (fp_line (start -2.4 -1.75) (end -2.4 1.75) (layer "F.Fab") (width 0.12) (tstamp c0828f54-48c5-40ab-b4fc-fd1532845725))
   (fp_line (start -2.4 1.75) (end 2.4 1.75) (layer "F.Fab") (width 0.12) (tstamp ee3b87cd-3068-451b-bfcd-e3f0835ef1d5))
   (fp_circle (center 1.6002 -0.3984) (end 2.1002 -0.3984) (layer "F.Fab") (width 0.12) (fill none) (tstamp 71c4e26b-4363-4c2d-ad40-84f420007768))
-  (pad "1" smd rect (at -1.85 1.45) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 65300a21-9152-41bf-920f-559534846493))
+  (pad "1" smd rect (at -1.25 1.45) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 65300a21-9152-41bf-920f-559534846493))
   (pad "2" smd rect (at 0 -1.45) (size 2 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0d2de162-b09c-44fc-b70b-b35c35121386))
-  (pad "3" smd rect (at 1.85 1.45) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 80ca4a35-9ba8-4e7d-b27b-4a4e92c5443f))
+  (pad "3" smd rect (at 1.25 1.45) (size 1.3 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 80ca4a35-9ba8-4e7d-b27b-4a4e92c5443f))
   (model "${KIPRJMOD}/packages3d/pvg5a.stp"
     (offset (xyz -0.3 -1.9 3))
     (scale (xyz 1 1 1))

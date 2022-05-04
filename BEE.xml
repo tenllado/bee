@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/christian/KiCad/BEE/BEE.kicad_sch</source>
-    <date>Thu 21 Apr 2022 07:55:41 PM CEST</date>
+    <date>Tue 03 May 2022 09:57:56 AM CEST</date>
     <tool>Eeschema 6.0.4+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -330,20 +330,20 @@
     <comp ref="J1">
       <value>RPI1_header</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/418/NG_CD_146254_J2-1238606.pdf</datasheet>
+      <datasheet>https://www.mouser.es/datasheet/2/18/1/bwb_bergstik-2584943.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN">571-7-146254-0</field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/7-146254-0?qs=sGAEpiMZZMs%252BGHln7q6pm44kDepmYTI8jAW7hTb6F%2FE=</field>
-        <field name="MPN">7-146254-0</field>
-        <field name="Manufacturer">TE Connectivity / AMP</field>
+        <field name="Distributor PN">649-77313-118-40LF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-118-40LF?qs=xJiur%252Bgubk3lGSHBo4OC%2FA%3D%3D</field>
+        <field name="MPN">77313-118-40LF</field>
+        <field name="Manufacturer">Amphenol FCI</field>
       </fields>
       <libsource lib="BEE" part="RPI1_header" description=""/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value="571-7-146254-0"/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TE-Connectivity-AMP/7-146254-0?qs=sGAEpiMZZMs%252BGHln7q6pm44kDepmYTI8jAW7hTb6F%2FE="/>
-      <property name="Manufacturer" value="TE Connectivity / AMP"/>
-      <property name="MPN" value="7-146254-0"/>
+      <property name="Distributor PN" value="649-77313-118-40LF"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/77313-118-40LF?qs=xJiur%252Bgubk3lGSHBo4OC%2FA%3D%3D"/>
+      <property name="Manufacturer" value="Amphenol FCI"/>
+      <property name="MPN" value="77313-118-40LF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -396,20 +396,20 @@
     <comp ref="J4">
       <value>Conn_01x06</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN"> 538-22-28-4060 </field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
-        <field name="MPN">22-28-4060</field>
-        <field name="Manufacturer">Molex</field>
+        <field name="Distributor PN">523-G800W302018EU</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-Commercial-Products/G800W302018EU?qs=f9yNj16SXrLA3jMaFoRlOg%3D%3D</field>
+        <field name="MPN">G800W302018EU</field>
+        <field name="Manufacturer">Amphenol Commercial Products</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value=" 538-22-28-4060 "/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D"/>
-      <property name="Manufacturer" value="Molex"/>
-      <property name="MPN" value="22-28-4060"/>
+      <property name="Distributor PN" value="523-G800W302018EU"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-Commercial-Products/G800W302018EU?qs=f9yNj16SXrLA3jMaFoRlOg%3D%3D"/>
+      <property name="Manufacturer" value="Amphenol Commercial Products"/>
+      <property name="MPN" value="G800W302018EU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -440,20 +440,20 @@
     <comp ref="J6">
       <value>Conn_01x06</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN"> 538-22-28-4060 </field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
-        <field name="MPN">22-28-4060</field>
-        <field name="Manufacturer">Molex</field>
+        <field name="Distributor PN">523-G800W302018EU</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-Commercial-Products/G800W302018EU?qs=f9yNj16SXrLA3jMaFoRlOg%3D%3D</field>
+        <field name="MPN">G800W302018EU</field>
+        <field name="Manufacturer">Amphenol Commercial Products</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value=" 538-22-28-4060 "/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D"/>
-      <property name="Manufacturer" value="Molex"/>
-      <property name="MPN" value="22-28-4060"/>
+      <property name="Distributor PN" value="523-G800W302018EU"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-Commercial-Products/G800W302018EU?qs=f9yNj16SXrLA3jMaFoRlOg%3D%3D"/>
+      <property name="Manufacturer" value="Amphenol Commercial Products"/>
+      <property name="MPN" value="G800W302018EU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -506,20 +506,20 @@
     <comp ref="J9">
       <value>Conn_01x02</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN">649-68001-402HLF</field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
-        <field name="MPN">68001-402HLF</field>
+        <field name="Distributor PN">649-1012937890201BLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D</field>
+        <field name="MPN">10129378-902001BLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value="649-68001-402HLF"/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
+      <property name="Distributor PN" value="649-1012937890201BLF"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="MPN" value="68001-402HLF"/>
+      <property name="MPN" value="10129378-902001BLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -528,20 +528,20 @@
     <comp ref="J10">
       <value>Conn_01x02</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN">649-68001-402HLF</field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
-        <field name="MPN">68001-402HLF</field>
+        <field name="Distributor PN">649-1012937890201BLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D</field>
+        <field name="MPN">10129378-902001BLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value="649-68001-402HLF"/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
+      <property name="Distributor PN" value="649-1012937890201BLF"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="MPN" value="68001-402HLF"/>
+      <property name="MPN" value="10129378-902001BLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -550,20 +550,20 @@
     <comp ref="J11">
       <value>Conn_01x02</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN">649-68001-402HLF</field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
-        <field name="MPN">68001-402HLF</field>
+        <field name="Distributor PN">649-1012937890201BLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D</field>
+        <field name="MPN">10129378-902001BLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value="649-68001-402HLF"/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
+      <property name="Distributor PN" value="649-1012937890201BLF"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="MPN" value="68001-402HLF"/>
+      <property name="MPN" value="10129378-902001BLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -572,20 +572,20 @@
     <comp ref="J12">
       <value>Conn_01x02</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/18/68000-1266375.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN">649-68001-402HLF</field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D</field>
-        <field name="MPN">68001-402HLF</field>
+        <field name="Distributor PN">649-1012937890201BLF</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D</field>
+        <field name="MPN">10129378-902001BLF</field>
         <field name="Manufacturer">Amphenol FCI</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value="649-68001-402HLF"/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/68001-402HLF?qs=sGAEpiMZZMs%252BGHln7q6pm24n0txessAMsVeW4psgO%2F4%3D"/>
+      <property name="Distributor PN" value="649-1012937890201BLF"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-FCI/10129378-902001BLF?qs=0lQeLiL1qybv6C1q0T3%2FPw%3D%3D"/>
       <property name="Manufacturer" value="Amphenol FCI"/>
-      <property name="MPN" value="68001-402HLF"/>
+      <property name="MPN" value="10129378-902001BLF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -594,20 +594,20 @@
     <comp ref="J13">
       <value>Conn_01x06</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>https://www.mouser.es/datasheet/2/276/0022284060_PCB_HEADERS-228129.pdf</datasheet>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf</datasheet>
       <fields>
         <field name="Distributor">Mouser</field>
-        <field name="Distributor PN"> 538-22-28-4060 </field>
-        <field name="Distributor link">https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D</field>
-        <field name="MPN">22-28-4060</field>
-        <field name="Manufacturer">Molex</field>
+        <field name="Distributor PN">523-G800W302018EU</field>
+        <field name="Distributor link">https://www.mouser.es/ProductDetail/Amphenol-Commercial-Products/G800W302018EU?qs=f9yNj16SXrLA3jMaFoRlOg%3D%3D</field>
+        <field name="MPN">G800W302018EU</field>
+        <field name="Manufacturer">Amphenol Commercial Products</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Distributor" value="Mouser"/>
-      <property name="Distributor PN" value=" 538-22-28-4060 "/>
-      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Molex/22-28-4060?qs=sGAEpiMZZMs%252BGHln7q6pm%252BS0pk2Wo0XxC4Xq7BDQXEY%3D"/>
-      <property name="Manufacturer" value="Molex"/>
-      <property name="MPN" value="22-28-4060"/>
+      <property name="Distributor PN" value="523-G800W302018EU"/>
+      <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Amphenol-Commercial-Products/G800W302018EU?qs=f9yNj16SXrLA3jMaFoRlOg%3D%3D"/>
+      <property name="Manufacturer" value="Amphenol Commercial Products"/>
+      <property name="MPN" value="G800W302018EU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1526,7 +1526,7 @@
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">579-MCP4911-E/SN</field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/Microchip-Technology/MCP4911-E-SN?qs=sGAEpiMZZMswix2y39yldX1d8KpQmwEZzyPncNF6qIU%3D</field>
-        <field name="MPN">CP3008T-I/SL</field>
+        <field name="MPN">MCP4911-E/MS</field>
         <field name="Manufacturer">Microchip Technologies</field>
       </fields>
       <libsource lib="Analog_DAC" part="MCP4911" description="10-Bit D/A Converters with SPI Interface"/>
@@ -1534,7 +1534,7 @@
       <property name="Distributor PN" value="579-MCP4911-E/SN"/>
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/Microchip-Technology/MCP4911-E-SN?qs=sGAEpiMZZMswix2y39yldX1d8KpQmwEZzyPncNF6qIU%3D"/>
       <property name="Manufacturer" value="Microchip Technologies"/>
-      <property name="MPN" value="CP3008T-I/SL"/>
+      <property name="MPN" value="MCP4911-E/MS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1545,6 +1545,7 @@
       <footprint>BEElib:dip_10xsp3t</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2319747%7FB%7Fpdf%7FEnglish%7FENG_CD_2319747_B.pdf%7F1-2319747-0</datasheet>
       <fields>
+        <field name="Alternative Distributor Link">https://www.onlinecomponents.com/en/te-connectivity-pb-brand/tds10sgrntu04-51059159.html?utm_source=octopart&amp;utm_medium=inventoryrefferal&amp;utm_campaign=octopart&amp;ref=octopartfeed&amp;utm_term=TDS10SGRNTU04</field>
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">506-TDS10SGRNTU04 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D</field>
@@ -1557,6 +1558,7 @@
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D"/>
       <property name="Manufacturer" value="TE Connectivity / Alcoswitch "/>
       <property name="MPN" value="TDS10SGRNTU04"/>
+      <property name="Alternative Distributor Link" value="https://www.onlinecomponents.com/en/te-connectivity-pb-brand/tds10sgrntu04-51059159.html?utm_source=octopart&amp;utm_medium=inventoryrefferal&amp;utm_campaign=octopart&amp;ref=octopartfeed&amp;utm_term=TDS10SGRNTU04"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1567,6 +1569,7 @@
       <footprint>BEElib:dip_10xsp3t</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Customer+Drawing%7F2319747%7FB%7Fpdf%7FEnglish%7FENG_CD_2319747_B.pdf%7F1-2319747-0</datasheet>
       <fields>
+        <field name="Alternative Distributor Link">https://www.onlinecomponents.com/en/te-connectivity-pb-brand/tds10sgrntu04-51059159.html?utm_source=octopart&amp;utm_medium=inventoryrefferal&amp;utm_campaign=octopart&amp;ref=octopartfeed&amp;utm_term=TDS10SGRNTU04</field>
         <field name="Distributor">Mouser</field>
         <field name="Distributor PN">506-TDS10SGRNTU04 </field>
         <field name="Distributor link">https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D</field>
@@ -1579,6 +1582,7 @@
       <property name="Distributor link" value="https://www.mouser.es/ProductDetail/TE-Connectivity-Alcoswitch/TDS10SGRNTU04?qs=wd5RIQLrsJg0FVrAw1wzDg%3D%3D"/>
       <property name="Manufacturer" value="TE Connectivity / Alcoswitch "/>
       <property name="MPN" value="TDS10SGRNTU04"/>
+      <property name="Alternative Distributor Link" value="https://www.onlinecomponents.com/en/te-connectivity-pb-brand/tds10sgrntu04-51059159.html?utm_source=octopart&amp;utm_medium=inventoryrefferal&amp;utm_campaign=octopart&amp;ref=octopartfeed&amp;utm_term=TDS10SGRNTU04"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="BEE.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2559,13 +2563,13 @@
       <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(J15-Pad5)">
+    <net code="79" name="Net-(J15-Pad6)">
       <node ref="J15" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J15" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(J15-Pad7)">
+    <net code="80" name="Net-(J15-Pad8)">
       <node ref="J15" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J15" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
@@ -2589,13 +2593,13 @@
       <node ref="J7" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(J15-Pad15)">
+    <net code="84" name="Net-(J15-Pad16)">
       <node ref="J15" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="J15" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="J7" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(J15-Pad17)">
+    <net code="85" name="Net-(J15-Pad18)">
       <node ref="J15" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="J15" pin="18" pinfunction="Pin_18" pintype="passive"/>
       <node ref="J7" pin="17" pinfunction="Pin_17" pintype="passive"/>
